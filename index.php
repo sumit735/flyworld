@@ -90,7 +90,7 @@
 
 <div class="main-menu">
     <ul>
-        <li class="current-menu-item"><a href="#home">Home</a></li>
+        <li class="current-menu-item"><a href="#home" style="color: black;">Home</a></li>
         <li><a href="trip-1.html">Holidays</a></li>
         
         <li class="menu-item-has-children"><a href="#">Car Rentals</a>
@@ -684,7 +684,7 @@
                     <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
                         <h2 class="rt-section-title">
                             <span>Take a Look at Our</span>
-                            Today's Top Deals
+                            Featured Odisha Tour
                         </h2><!-- /.rt-section-title -->
                         <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
                         <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
@@ -725,7 +725,7 @@
                     <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
                         <h2 class="rt-section-title">
                             <span>Take a Look at Our</span>
-                            Today's Top Deals
+                            Featured Odisha Tour
                         </h2><!-- /.rt-section-title -->
                         <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
                         <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
@@ -766,7 +766,140 @@
                     <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
                         <h2 class="rt-section-title">
                             <span>Take a Look at Our</span>
-                            Today's Top Deals
+                            Featured Odisha Tour
+                        </h2><!-- /.rt-section-title -->
+                        <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
+                        <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                        <div class="deal-bottom-content">
+                            <div class="rating-box">
+                                <span class="d-block">EXCELLENT</span>
+                                <span class="d-block"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  of 205 Reviews</span>
+                                <span class="d-block">Reviewed by Kim - Denmark</span>
+                            </div><!-- /.rating-box -->
+                            <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                            <h4>Thailand Tours and Holidays 2018/2019</h4>
+                            <p>
+                                Thailand is the perfect destination for those who love to spend time outdoors. You can soak up the
+                                sunshine on the beautiful beaches of Phuket, or head to the North of the country to Chiang Mai for adventure and
+                                outdoor
+                                activities like water rafting and trekking. Of course, not to be missed is Bangkok, where you can tour its
+                                floating
+                                markets or lavish Grand Palace.
+                            </p>
+                            <div class="rt-button-group">
+                                <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a>
+                                <a href="#" class="rt-btn rt-outline-gradientL rt-rounded">Help Me Plan My Trip</a>
+                            </div>
+                        </div><!-- /.deal-bottom-content -->
+                    </div><!-- /.rt-section-title-wrapper -->
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+       </div><!-- /.deal-carosel-active -->
+    </div><!-- /.container -->
+ </section>
+ <!-- ==================================================================================== -->
+<!-- India Packages -->
+<!-- ===================================================================================== -->
+
+ <section class="deal-area   rtbgprefix-full bg-hide-md" style="background-image: url(assets/images/backgrounds/bgshapes_1.png)">
+    <div class="container-fluid p-0">
+       <div class="deal-carosel-active owl-carousel">
+            <div class="row single-deal-carosel align-items-center">
+                <div class="col-lg-5">
+                    <div class="deal-bg" style="background-image: url(assets/images/all-img/deal-bg.jpg)">
+                        <div class="inner-content">
+                            <h4 data-animation="fadeInDown" data-duration=".2s" data-delay=".4s">14 Day Classic Tour of Thailand & Beaches</h4>
+                            <p data-animation="fade-in-bottom" data-duration=".2s" data-delay=".4s">Grab a promo code for extra savings up to 75% on discounted hotels!</p>
+                        </div><!-- /.inner-content -->
+                    </div><!-- /.deal-bg -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-lg-7">
+                    <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
+                        <h2 class="rt-section-title">
+                            <span>Take a Look at Our</span>
+                            Featured India Tour
+                        </h2><!-- /.rt-section-title -->
+                        <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
+                        <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                        <div class="deal-bottom-content">
+                            <div class="rating-box">
+                                <span class="d-block">EXCELLENT</span>
+                                <span class="d-block"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  of 205 Reviews</span>
+                                <span class="d-block">Reviewed by Kim - Denmark</span>
+                            </div><!-- /.rating-box -->
+                            <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                            <h4>Thailand Tours and Holidays 2018/2019</h4>
+                            <p>
+                                Thailand is the perfect destination for those who love to spend time outdoors. You can soak up the
+                                sunshine on the beautiful beaches of Phuket, or head to the North of the country to Chiang Mai for adventure and
+                                outdoor
+                                activities like water rafting and trekking. Of course, not to be missed is Bangkok, where you can tour its
+                                floating
+                                markets or lavish Grand Palace.
+                            </p>
+                            <div class="rt-button-group">
+                                <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a>
+                                <a href="#" class="rt-btn rt-outline-gradientL rt-rounded">Help Me Plan My Trip</a>
+                            </div>
+                        </div><!-- /.deal-bottom-content -->
+                    </div><!-- /.rt-section-title-wrapper -->
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+            <div class="row single-deal-carosel align-items-center">
+                <div class="col-lg-5">
+                    <div class="deal-bg" style="background-image: url(assets/images/all-img/deal-bg.jpg)">
+                        <div class="inner-content">
+                            <h4 data-animation="fadeInDown" data-duration=".2s" data-delay=".4s">14 Day Classic Tour of Thailand & Beaches</h4>
+                            <p data-animation="fade-in-bottom" data-duration=".2s" data-delay=".4s">Grab a promo code for extra savings up to 75% on discounted hotels!</p>
+                        </div><!-- /.inner-content -->
+                    </div><!-- /.deal-bg -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-lg-7">
+                    <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
+                        <h2 class="rt-section-title">
+                            <span>Take a Look at Our</span>
+                            Featured India Tour
+                        </h2><!-- /.rt-section-title -->
+                        <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
+                        <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                        <div class="deal-bottom-content">
+                            <div class="rating-box">
+                                <span class="d-block">EXCELLENT</span>
+                                <span class="d-block"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>  of 205 Reviews</span>
+                                <span class="d-block">Reviewed by Kim - Denmark</span>
+                            </div><!-- /.rating-box -->
+                            <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                            <h4>Thailand Tours and Holidays 2018/2019</h4>
+                            <p>
+                                Thailand is the perfect destination for those who love to spend time outdoors. You can soak up the
+                                sunshine on the beautiful beaches of Phuket, or head to the North of the country to Chiang Mai for adventure and
+                                outdoor
+                                activities like water rafting and trekking. Of course, not to be missed is Bangkok, where you can tour its
+                                floating
+                                markets or lavish Grand Palace.
+                            </p>
+                            <div class="rt-button-group">
+                                <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a>
+                                <a href="#" class="rt-btn rt-outline-gradientL rt-rounded">Help Me Plan My Trip</a>
+                            </div>
+                        </div><!-- /.deal-bottom-content -->
+                    </div><!-- /.rt-section-title-wrapper -->
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+            <div class="row single-deal-carosel align-items-center">
+                <div class="col-lg-5">
+                    <div class="deal-bg" style="background-image: url(assets/images/all-img/deal-bg.jpg)">
+                        <div class="inner-content">
+                            <h4 data-animation="fadeInDown" data-duration=".2s" data-delay=".4s">14 Day Classic Tour of Thailand & Beaches</h4>
+                            <p data-animation="fade-in-bottom" data-duration=".2s" data-delay=".4s">Grab a promo code for extra savings up to 75% on discounted hotels!</p>
+                        </div><!-- /.inner-content -->
+                    </div><!-- /.deal-bg -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-lg-7">
+                    <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
+                        <h2 class="rt-section-title">
+                            <span>Take a Look at Our</span>
+                            Featured India Tour
                         </h2><!-- /.rt-section-title -->
                         <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
                         <div class="section-title-spacer"></div><!-- /.section-title-spacer -->

@@ -1,9 +1,9 @@
 <?php 
     session_start();
     if(isset($_POST['submit'])) {
-        $email = $_POST['mail'];
-        $_SESSION['verificationCode'] = mt_rand(3232, 999658);
-        $code = $_SESSION['verificationCode'];
+        echo $email = $_POST['mail'];
+        echo $_SESSION['verificationCode'] = mt_rand(3232, 999658);
+        echo $code = $_SESSION['verificationCode'];
         $msg = "please enter this code in the login page to verify your email";
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
