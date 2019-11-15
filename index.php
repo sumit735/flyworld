@@ -723,18 +723,13 @@
                 </div><!-- /.col-md-6 -->
                 <div class="col-lg-7">
                     <div class="rt-section-title-wrapper text-white" data-animation="fadeIn" data-duration=".4s" >
-<<<<<<< HEAD
+
                         <h2 class="rt-section-title">
                             <span>Take a Look at Our</span>
                             Featured Odisha Tour
                         </h2><!-- /.rt-section-title -->
-=======
-                        
-                    <h2 class="rt-section-title">
-                        <span>Take a Look at Our</span>
-                        Featured India Tour
-                    </h2><!-- /.rt-section-title -->
->>>>>>> 3d913094a0a28d0b2103f4971252d0ba0bfd51b6
+
+
                         <p>Find great experiences, trips, and activities at fantastic prices around the globe.</p>
                         <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
                         <div class="deal-bottom-content">
