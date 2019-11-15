@@ -57,13 +57,13 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <ul class="text-center text-md-left top-message">
-                    <li> <i class="icofont-headphone-alt"></i>Support</li>
+                    <!-- <li> <i class="icofont-headphone-alt"></i>Support</li> -->
                     <li><a href="mailto:info@flyworld.com "><i class="icofont-email"></i>info@flyworld.com</a></li>
                 </ul>
             </div><!-- end top header single -->
             <div class="col-md-6">
                 <ul class="text-center text-md-right top-social">
-                    <li><a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                    <!-- <li><a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
         aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe-americas"></i>Englishs</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">English</a>
@@ -71,7 +71,7 @@
                             <a class="dropdown-item" href="#">Trukis</a>
                         </div>
                         </li>
-                    <li><a href="#"><i class="fas fa-briefcase"></i>My Trips</a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i>My Trips</a></li> -->
                     <li><a href="#" data-target="#rtmodal-1" data-toggle="modal"><i class="far fa-user-circle"></i>Sign in | Join</a></li>
                 </ul>
             </div><!-- end top header single -->
