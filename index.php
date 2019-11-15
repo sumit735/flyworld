@@ -364,70 +364,71 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane show active" id="rt-item_a_first" role="tabpanel" aria-labelledby="rt-item_a_first">
                     <form action="#">
-                        <div class="rt-radio-group">
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline1">One-way</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline2" name="customRadioInline2" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline2">Round-trip</label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline3" name="customRadioInline3" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline3">Multi-city</label>
-                            </div>
-                            <div class="dropdown form-check-inline rt-searchlink mr-md-5">
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    1 Adult
-                                </a>
-            
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Room one</a>
-                                    <a class="dropdown-item" href="#">Room two</a>
-                                    <a class="dropdown-item" href="#">Room three</a>
-                                </div>
-                            </div><!-- ./dropdown -->
-                            <div class="dropdown form-check-inline rt-searchlink">
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Economy
-                                </a>
-            
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                                    <a class="dropdown-item" href="#">Room one</a>
-                                    <a class="dropdown-item" href="#">Room two</a>
-                                    <a class="dropdown-item" href="#">Room three</a>
-                                </div>
-                            </div><!-- ./dropdown -->
-                        </div><!-- /.radio-group -->
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <select class="rt-selectactive banner-select" name="from" style="width: 100%">
-                                    <option value="1">from</option>
-                                    <option value="2">Alaska</option>
-                                    <option value="3">Bahamas</option>
-                                    <option value="4">Bermuda</option>
-                                    <option value="5">Canada</option>
-                                    <option value="6">Caribbean</option>
-                                    <option value="7">Europe</option>
-                                    <option value="8">Hawaii</option>
-                                </select>
-                                <span class="input-iconbadge"><img src="assets/images/icons-image/s_icon_1.png" alt="" draggable="false"></span>
+                                <input type="text" class="form-control" placeholder="Your City">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <select class="rt-selectactive banner-select" name="to" style="width: 100%">
-                                    <option value="1">To</option>
-                                    <option value="2">Alaska</option>
-                                    <option value="3">Bahamas</option>
-                                    <option value="4">Bermuda</option>
-                                    <option value="5">Canada</option>
-                                    <option value="6">Caribbean</option>
-                                    <option value="7">Europe</option>
-                                    <option value="8">Hawaii</option>
+                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
+                                <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
+                            </div><!-- /.single-input -->
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Return">
+                                <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
+                            </div><!-- /.single-input -->
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control" placeholder="message(optional)">
+                            </div><!-- /.single-input -->
+                            <div class="single-input  col-rt-in-1">
+                                <button type="submit"><i class="icofont-search"></i></button>
+                            </div><!-- /.single-input -->
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
+                    <form action="#">
+                        <div class="rt-input-group">
+                            
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control" placeholder="City Name">
+                            </div><!-- /.single-input -->
+                            <div class="single-input  col-rt-in-3">
+                               <input type="text" class="form-control rt-date-picker has-icon" placeholder="Check In">
+                               <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
+                            </div><!-- /.single-input -->
+                            
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Check Out">
+                                <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
+                            </div><!-- /.single-input -->
+                            <div class="single-input  col-rt-in-3">
+                                <select class="rt-selectactive banner-select" name="type" style="width: 100%">
+                                    <option value="1">Hotel Type</option>
+                                    <option value="5 Star">5 Star</option>
+                                    <option value="4 Star">4 Star</option>
+                                    <option value="3 Star">3 Star</option>
+                                    <option value="Standard">Standard Hotel</option>
+                                    <option value="Budget">Budget Hotel</option>
                                 </select>
-                                <span class="input-iconbadge"><img src="assets/images/icons-image/s_icon_2.png" alt="" draggable="false"></span>
+                            </div>
+                            <!-- <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control" placeholder="message(optional)">
+                            </div>/.single-input -->
+                            <div class="single-input  col-rt-in-1">
+                                <button type="submit"><i class="icofont-search"></i></button>
+                            </div><!-- /.single-input -->
+                        </div><!-- /.rt-input-group -->
+                    </form><!-- ./ form -->
+                </div>
+                <div class="tab-pane  rtIncative" id="rt-item_a_third" role="tabpanel" aria-labelledby="rt-item_a_third">
+                    <form action="#">
+                    
+                        <div class="rt-input-group">
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control" placeholder="Source">
+                            </div>
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" class="form-control" placeholder="Destination">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
@@ -443,106 +444,37 @@
                         </div><!-- /.rt-input-group -->
                     </form><!-- ./ form -->
                 </div>
-                <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
+                <div class="tab-pane  rtIncative" id="rt-item_a_four" role="tabpanel" aria-labelledby="rt-item_a_four">
                     <form action="#">
-                        <div class="rt-radio-group">
-                            <div class="dropdown form-check-inline rt-searchlink">
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink24" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Guestes per room
-                                </a>
-                        
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink24">
-                                    <a class="dropdown-item" href="#">Room one</a>
-                                    <a class="dropdown-item" href="#">Room two</a>
-                                    <a class="dropdown-item" href="#">Room three</a>
-                                </div>
-                            </div><!-- ./dropdown -->
-                        </div><!-- /.radio-group -->
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="destination">
-                               
+                                <input type="text" class="form-control" placeholder="City Name">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                               <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
-                               <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
-                            </div><!-- /.single-input -->
-                            <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Return">
+                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Arrival Date">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="keywords(optional)">
-                            </div><!-- /.single-input -->
+                                <select class="rt-selectactive banner-select" name="type" style="width: 100%">
+                                    <option value="select">Select</option>
+                                    <option value="Airport">Airport</option>
+                                    <option value="Railway Station">Railway Station</option>
+                                </select>
+                            </div>
+                            <div class="single-input  col-rt-in-3">
+                                <select class="rt-selectactive banner-select" name="type" style="width: 100%">
+                                    <option value="p">No of passengers</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5+">more than 4</option>
+                                </select>
+                            </div>
                             <div class="single-input  col-rt-in-1">
                                 <button type="submit"><i class="icofont-search"></i></button>
                             </div><!-- /.single-input -->
-                        </div><!-- /.rt-input-group -->
-                    </form><!-- ./ form -->
-                </div>
-                <div class="tab-pane  rtIncative" id="rt-item_a_third" role="tabpanel" aria-labelledby="rt-item_a_third">
-                    <form action="#">
-                    
-                    <div class="rt-input-group">
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" class="form-control" placeholder="destination">
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
-                            <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" class="form-control rt-date-picker has-icon" placeholder="Return">
-                            <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" class="form-control" placeholder="keywords(optional)">
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-1">
-                            <button type="submit"><i class="icofont-search"></i></button>
-                        </div><!-- /.single-input -->
-                    </div><!-- /.rt-input-group -->
-                    </form><!-- ./ form -->
-                </div>
-                <div class="tab-pane  rtIncative" id="rt-item_a_four" role="tabpanel" aria-labelledby="rt-item_a_four">
-                    <form action="#">
-                    <div class="rt-input-group">
-                        <div class="single-input  col-rt-in-3">
-                            <select class="rt-selectactive banner-select" name="from" style="width: 100%">
-                                <option value="1">from</option>
-                                <option value="2">Alaska</option>
-                                <option value="3">Bahamas</option>
-                                <option value="4">Bermuda</option>
-                                <option value="5">Canada</option>
-                                <option value="6">Caribbean</option>
-                                <option value="7">Europe</option>
-                                <option value="8">Hawaii</option>
-                            </select>
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-3">
-                            <select class="rt-selectactive banner-select" name="to" style="width: 100%">
-                                <option value="1">To</option>
-                                <option value="2">Alaska</option>
-                                <option value="3">Bahamas</option>
-                                <option value="4">Bermuda</option>
-                                <option value="5">Canada</option>
-                                <option value="6">Caribbean</option>
-                                <option value="7">Europe</option>
-                                <option value="8">Hawaii</option>
-                            </select>
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
-                            <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" class="form-control" placeholder="train no( opt)">
-                        </div><!-- /.single-input -->
-                        <div class="single-input  col-rt-in-1">
-                            <button type="submit"><i class="icofont-search"></i></button>
-                        </div><!-- /.single-input -->
-                    </div><!-- /.rt-input-group -->
+                        </div>
                     </form><!-- ./ form -->
                 </div>
             </div>
