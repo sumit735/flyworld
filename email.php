@@ -1,13 +1,12 @@
 <?php 
     session_start();
     if(isset($_POST['submit'])) {
-        echo $email = $_POST['mail'];
-        echo $_SESSION['verificationCode'] = mt_rand(3232, 999658);
-        echo $code = $_SESSION['verificationCode'];
+        $email = $_POST['mail'];
+        $_SESSION['verificationCode'] = mt_rand(3232, 999658);
         $msg = "please enter this code in the login page to verify your email";
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $body = $code."<br>".$msg;
+        $body = $_SESSION['verificationCode']."<br>".$msg;
 
         if(mail($email, "Email Verification Code", $body, $headers)){
             echo "<script>alert('Code Sent! Please  check your email to continue.')</script>";
@@ -16,9 +15,8 @@
     }
 
     if(isset($_POST['verify'])) {
-        echo $entered = $_POST['verification']."<br>";
-        echo $code;
-        if($code == $entered) {
+        $entered = $_POST['verification']."<br>";
+        if($_SESSION['verificationCode'] == $entered) {
             echo "Welcome bro";
         } else {
             echo "Wrong otp. Please try again";
