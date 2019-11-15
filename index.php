@@ -83,8 +83,8 @@
     <div class="main-header rt-sticky">
       <nav class="navbar">
         <div class="container">
-            <!-- <a href="index-2.html" class="brand-logo"><img src="assets/images/logo/logo.png" alt=""></a> -->
-            <!-- <a href="index-2.html" class="sticky-logo"><img src="assets/images/logo/logo.png" alt=""></a> -->
+            <!-- <a href="index-2.php" class="brand-logo"><img src="assets/images/logo/logo.png" alt=""></a> -->
+            <!-- <a href="index-2.php" class="sticky-logo"><img src="assets/images/logo/logo.png" alt=""></a> -->
           <div class="ml-auto d-flex align-items-center">
             
 
@@ -110,8 +110,8 @@
                 <li class="sub-menu"><a href="#">Tavera</a></li>
             </ul>
         </li>
-        <li><a href="service-1.html" style="color: black;">Luxury Cars</a></li>
-        <li> <a href="blog.html" style="color: black;">Wedding Cars</a></li>
+        <li><a href="service-1.php" style="color: black;">Luxury Cars</a></li>
+        <li> <a href="blog.php" style="color: black;">Wedding Cars</a></li>
         <li class="menu-item-has-children"><a href="#" style="color: black;">Places</a>
             <ul class="sub-menu">
                 <li class="sub-menu"><a href="#">Bhubaneswar</a></li>
@@ -134,7 +134,7 @@
     </div>
 </div><!-- end main menu -->
             <div class="rt-nav-tolls d-flex align-items-center">
-    <span class="d-md-inline d-none"><a href="contact.html" class="rt-btn rt-gradient2 rt-rounded text-uppercase rt-Bshadow-1">Contact
+    <span class="d-md-inline d-none"><a href="contact.php" class="rt-btn rt-gradient2 rt-rounded text-uppercase rt-Bshadow-1">Contact
             Us</a></span>
 </div>
     
