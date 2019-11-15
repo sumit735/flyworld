@@ -28,7 +28,16 @@
 <link rel="stylesheet" href="assets/css/app.css">
 <!-- ==================End Css Link===================== -->
 
+<style>
 
+    .col {
+        background: #ff00cc;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+</style>
 
 
     <!--[if lt IE 9]>
@@ -1643,40 +1652,11 @@
  -->
 <section class="rt-site-footer" data-scrollax-parent="true">
     <!-- <div class="rt-shape-emenetns-1" style="background-image: url(assets/images/shape-elements/shape-4.png)" data-scrollax="properties: { translateY: '340px' }"></div>  -->
-    <div class="footer-top rtbgprefix-cover">
-        <div class="footer-subscripbe-box wow fade-in-bottom">
-           <div class="container">
-               <!-- <div class="row">
-                   <div class="col-xl-8 col-lg-10 mx-auto text-center">
-                        <div class="rt-section-title-wrapper text-white">
-                            <h2 class="rt-section-title">
-                                <span>Newsletter</span>
-                        
-                                Get The Latest news
-                            </h2>
-                            <p>
-                                Get the latest travel inspirations and deals from flyworld semimonthly with your email. You can
-                                unsubscribe at any time. Your privacy & personal information will be treated.
-                            </p>
-                        </div>
-                   </div>
-               </div> -->
-            <div class="section-title-spacer"></div>
-            <!-- <div class="row">
-                <div class="col-lg-7 mx-auto">
-                    <div class="input-group mb-5">
-                        <input type="text" class="form-control" placeholder="Enter your email address" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn" type="button" id="button-addon2">Subcribe Now</button>
-                        </div>
-                    </div>
-                </div>
-               <div class="rt-dot-divider"></div>
-           </div> -->
-        </div>
+    <div class="footer-top col">
+        <div class="section-title-spacer"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-md-9">
                     <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="1s">
                         <h3 class="rt-footer-title">Company Info</h3>
                         <ul class="rt-usefulllinks">
@@ -1703,9 +1683,9 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-md-3">
                     <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="1.5s">
-                        <h3 class="rt-footer-title">Work With Us</h3>
+                        <h3 class="rt-footer-title">Address</h3>
                         <ul class="rt-usefulllinks">
                             <li><a href="#">Become Partner</a></li>
                             <li><a href="#">Careers</a></li>
@@ -1717,42 +1697,28 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 col-md-3">
-                    <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="2s">
-                        <h3 class="rt-footer-title">
-                            My Account
-                        </h3>
-                        <ul class="rt-usefulllinks">
-                        
-                            <li><a href="#">Manage Your Account</a></li>
-                            <li><a href="#">Build your own trip</a></li>
-                            <li><a href="#">Order Sttatus</a></li>
-                            <li><a href="#">Booking Guide</a></li>
-                            <li><a href="#">Travel Insurance & Safety Guide</a></li>
-                        </ul>
-                    </div>
-                </div> -->
-                <!-- <div class="col-lg-6 col-md-3">
-                    <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="2.5s">
-                        <h3 class="rt-footer-title">
-                            Plan Your Trip
-                        </h3>
-                        <ul class="rt-usefulllinks">
-                            <li><a href="#">Special Offers</a></li>
-                            <li><a href="#">Hotels</a></li>
-                            <li><a href="#">Flights</a></li>
-                            <li><a href="#">Tour Packages</a></li>
-                            <li><a href="#">Accommodations</a></li>
-                            <li><a href="#">Transportation</a></li>
-                        </ul>
-                    </div>
-                </div> -->
+                
             </div>
         </div>
-    </div>
+    <!-- </div> -->
     
 </section>
-
+<div class="footer col">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-left">
+                <div class="copy-text wow fade-in-bottom" data-wow-duration="1s">
+                    <p style="color: #fff;">Copyright © 2018.All Rights Reserved.</p>
+                </div><!-- /.copy-text -->
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="copy-text wow fade-in-bottom" data-wow-duration="1s">
+                    <p style="color: #fff;">Designed And Developed By <a href="https://www.gvitechnology.com" target="_blank">GVI Technology.</p>
+                </div>
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </div>
+</div>
 
 
 <!-- ==================Start Js Link===================== -->
@@ -1788,7 +1754,6 @@
 </body>
 
 
-<!-- Mirrored from pixner.net/flyworld/flyworld/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2019 06:08:31 GMT -->
 </html>
 
 
