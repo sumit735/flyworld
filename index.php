@@ -384,11 +384,11 @@
                             </div><!-- /.single-input -->
                         </div>
                     </form>
-                </div>
+                </div> 
+                <p></p>
                 <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
                     <form action="#">
                         <div class="rt-input-group">
-                            
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="City Name">
                             </div><!-- /.single-input -->
