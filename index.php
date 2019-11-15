@@ -385,7 +385,6 @@
                         </div>
                     </form>
                 </div> 
-                <p></p>
                 <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
                     <form action="#">
                         <div class="rt-input-group">
