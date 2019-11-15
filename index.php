@@ -101,14 +101,14 @@
         
         <li class="menu-item-has-children"><a href="#" style="color: black;">Car Rentals</a>
             <ul class="sub-menu">
-                <li class="menu-item-has-children"><a href="#">Home Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">Hotel Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">Flight Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">train Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">trip Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">car Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">blog Pages</a></li>
-                <li class="menu-item-has-children"><a href="#">Others Pages</a></li>
+                <li class="sub-menu"><a href="#">Home Pages</a></li>
+                <li class="sub-menu"><a href="#">Hotel Pages</a></li>
+                <li class="sub-menu"><a href="#">Flight Pages</a></li>
+                <li class="sub-menu"><a href="#">train Pages</a></li>
+                <li class="sub-menu"><a href="#">trip Pages</a></li>
+                <li class="sub-menu"><a href="#">car Pages</a></li>
+                <li class="sub-menu"><a href="#">blog Pages</a></li>
+                <li class="sub-menu"><a href="#">Others Pages</a></li>
             </ul>
         </li>
         <li><a href="service-1.html" style="color: black;">Luxury Cars</a></li>
