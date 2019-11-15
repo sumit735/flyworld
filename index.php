@@ -773,7 +773,7 @@
 <!-- 
     ========works start==========
  -->
-<div class="spacer-top"></div><!-- /.spacer-top -->
+<!-- <div class="spacer-top"></div>
  <section class="works-area">
     <div class="container">
         <div class="row">
@@ -782,64 +782,64 @@
                     <h2 class="rt-section-title">
                         <span>Here's How It Works</span>
                         Getting Started? It’s Simple
-                    </h2><!-- /.rt-section-title -->
+                    </h2>
                     <p>Prepare For Your Trip.Find out all you need to know before you go.Traveling is as unique as you are. And there is no one
                     package that fits all. That's why we offer customized travel packages.</p>
-                </div><!-- /.rt-section-title-wrapper- -->
-            </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-        <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                </div>
+            </div>
+        </div>
+        <div class="section-title-spacer"></div>
         <div class="row">
             <div class="col-lg-3 col-md-6 mx-auto text-center">
                 <div class="services-box-2 wow fade-in-bottom">
                     <div class="services-thumb">
                         <img src="assets/images/service-icons/s_icon_4.png" alt="service-icons" draggable="false">
-                    </div><!-- /.services-thumb -->
+                    </div>
                     <span class="inner-counter"></span>
                     <h4>Search</h4>
                     <p>Over 1,200,000 Hotels, Apartments
                         and Hostels</p>
-                </div><!-- /.services-box-2 -->
-            </div><!-- /.col-lg-3 -->
+                </div>
+            </div>
             <div class="col-lg-3 col-md-6 mx-auto text-center">
                 <div class="services-box-2 wow fade-in-bottom" data-wow-duration="1s">
                     <div class="services-thumb">
                         <img src="assets/images/service-icons/s_icon_5.png" alt="service-icons" draggable="false">
-                    </div><!-- /.services-thumb -->
+                    </div>
                     <span class="inner-counter"></span>
                     <h4>Compare & Book</h4>
                     <p>By price, location, rating
                         and more.</p>
-                </div><!-- /.services-box-2 -->
-            </div><!-- /.col-lg-3 -->
+                </div>
+            </div>
             <div class="col-lg-3 col-md-6 mx-auto text-center">
                 <div class="services-box-2 wow fade-in-bottom" data-wow-duration="1.5s">
                     <div class="services-thumb">
                         <img src="assets/images/service-icons/s_icon_6.png" alt="service-icons" draggable="false">
-                    </div><!-- /.services-thumb -->
+                    </div>
                     <span class="inner-counter"></span>
                     <h4>Get travel insurance</h4>
                     <p>Buy comprehensive cover for
                         your next trips</p>
-                </div><!-- /.services-box-2 -->
-            </div><!-- /.col-lg-3 -->
+                </div>
+            </div>
             <div class="col-lg-3 col-md-6 mx-auto text-center">
                 <div class="services-box-2 wow fade-in-bottom" data-wow-duration="2s">
                     <div class="services-thumb">
                         <img src="assets/images/service-icons/s_icon_7.png" alt="service-icons" draggable="false">
-                    </div><!-- /.services-thumb -->
+                    </div>
                     <span class="inner-counter"></span>
                     <h4>Book a room</h4>
                     <p>By finding the best price for
                         your ideal hotel.</p>
-                </div><!-- /.services-box-2 -->
-            </div><!-- /.col-lg-3 -->
+                </div>
+            </div>
             <div class="col-12 text-center mt-4">
-                <a href="#" class="rt-btn rt-gradient text-uppercase rt-sm rt-rounded rt-Bshadow-2">Tour the world</a><!-- /.rt-btn -->
-            </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
- </section>
+                <a href="#" class="rt-btn rt-gradient text-uppercase rt-sm rt-rounded rt-Bshadow-2">Tour the world</a>
+            </div>
+        </div>
+    </div>
+ </section> -->
 <!-- 
     ============ Portfolio Start===============
  -->
@@ -851,15 +851,15 @@
                 <div class="rt-section-title-wrapper text-white">
                     <h2 class="rt-section-title">
                         <span>Take a Look at Our</span>
-                        Recommended Hotels
+                        Recommended Cars
                     </h2><!-- /.rt-section-title -->
-                    <p>We've made a list of suggested activities based on your interests.Browse through our most popular
-                    Hotels!Our Featured Tours can help you find the trip that's perfect for you!.</p>
+                    <p>We've made a list of suggested Cars based on your interests.Browse through our most popular
+                    Cars!Our Featured Tours can help you find the trip that's perfect for you!.</p>
                 </div><!-- /.rt-section-title-wrapper- -->
             </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
         <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12">
                 <ul class="filter-list">
                     <li data-filter="*" class="active ">New York</li>
@@ -870,7 +870,7 @@
                     <li data-filter=".cat-5">Singapore</li>
                     <li data-filter=".cat-5">Tokyo</li>
                 </ul>
-            </div><!-- /.col-12 -->
+            </div> -->
         </div><!-- /.row -->
         <div class="row grid">
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-5 cat-4">
@@ -1157,7 +1157,7 @@
     ====== call to action======
  -->
 
-<div class="spacer-top"></div><!-- /.spacer-top -->
+<!-- <div class="spacer-top"></div>
 <section class="rt-cta-area">
     
     <div class="container">
@@ -1171,41 +1171,41 @@
                         <p class="wow fade-in-bottom" data-wow-duration="1s" data-wow-delay="0.2s">
                             Send us an email and someone on our team will be in touch with you!
                         </p>
-                    </div><!-- /.left-column -->
+                    </div>
                     <div class="right-column">
-                        <a href="#" class="rt-btn rt-gradient rt-sm text-uppercase rt-rounded rt-Bshadow-2 wow fade-in-left" data-wow-duration="1s" data-wow-delay="0.6s">Plan Your Next Trip</a><!-- /.rt-btn -->
-                    </div><!-- /.right-column -->
-                </div><!-- /.inner-content -->
-            </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
+                        <a href="#" class="rt-btn rt-gradient rt-sm text-uppercase rt-rounded rt-Bshadow-2 wow fade-in-left" data-wow-duration="1s" data-wow-delay="0.6s">Plan Your Next Trip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</section>
+</section> -->
 
 <!-- 
     =======app area strat=========
  -->
 
-<div class="spacer-top"></div><!-- /.spacer-top -->
+<!-- <div class="spacer-top"></div>
 
 
 <section class="app-area rtbgprefix-cover" style="background-image: url(assets/images/backgrounds/app_bg.png)"
     data-scrollax-parent="true">
     <div class="rt-shape-elements-1 rtbgprefix-contain"
         style="background-image: url(assets/images/shape-elements/shape-3.png)"
-        data-scrollax="properties: { translateY: '50px' }"></div><!-- /.rt-shape-elements-1 -->
+        data-scrollax="properties: { translateY: '50px' }"></div>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 text-center text-lg-left">
                 <img src="assets/images/all-img/app-mbl.png" alt="mockup image" draggable="false" class="wow fade-in-left" data-wow-duration="1s" data-wow-delay="0.2s">
-            </div><!-- /.col-lg-5 -->
+            </div>
             <div class="col-lg-7">
                 <div class="rt-section-title-wrapper">
                     <div class="wow fade-in-bottom" data-wow-duration="1s" data-wow-delay="0.6s">
                         <h2 class="rt-section-title">
                             <span>Itineraries that impress.</span>
                             Download App
-                        </h2><!-- /.rt-section-title -->
+                        </h2>
                         <p>
                             All your travel plans, in one place.You handle the booking.Access reservations, maps, and
                             more on your favorite device!View trending destinations. Discover popular trips. Listen to
@@ -1221,55 +1221,54 @@
                             travellers. Find lasting friendships, discover new adventures and create unforgettable
                             memories.
                         </p>
-                    </div><!-- /.wow -->
+                    </div>
                     <div class="rt-button-group mt-5 wow fade-in-bottom" data-wow-duration="1s" data-wow-delay="0.9s">
                         <a href="#" class="rt-btn rt-app-parimary rt-rounded">
                             <div class="app-thumb">
                                 <i class="fab fa-google-play"></i>
-                            </div><!-- /.app-thumb -->
+                            </div>
                             <div class="app-text">
                                 <span>GET IT ON</span>
                                 <span>Appstore</span>
-                            </div><!-- /.app-text -->
+                            </div>
                         </a>
                         <a href="#" class="rt-btn rt-app-secondary rt-rounded">
                             <div class="app-thumb">
                                 <i class="fab fa-apple"></i>
-                            </div><!-- /.app-thumb -->
+                            </div>
                             <div class="app-text">
                                 <span>GET IT ON</span>
                                 <span>Appstore</span>
-                            </div><!-- /.app-text -->
+                            </div>
                         </a>
-                    </div><!-- /.rt-button-group -->
-                </div><!-- /.rt-section-title-wrapper -->
-            </div><!-- /.col-lg-7 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
 
 <!-- 
     ============= video area start==========
  -->
 
- <div class="play-video rtbgprefix-full bg-hide-md" style="background-image: url(assets/images/backgrounds/videobg.png)">
+ <!-- <div class="play-video rtbgprefix-full bg-hide-md" style="background-image: url(assets/images/backgrounds/videobg.png)">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">
                 <div class="play-video-box rtbgprefix-cover" style="background-image: url(assets/images/backgrounds/play-video-bg.png)">
     <a href="https://vimeo.com/310740632" class="rt-btn rt-video-light playVideo"></a>
-</div><!-- /.play-video-box -->
-            </div><!-- /.col-lg-10 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
 </div>
+            </div>
+        </div>
+    </div>
+</div> -->
 
 <!-- 
     ============= Testimonilas area start==========
  -->
 <section class="testimonials-area" data-scrollax-parent="true">
-    <div class="rt-shape-emenetns-1" style="background-image: url(assets/images/shape-elements/shape-4.png)"
-        data-scrollax="properties: { translateY: '-140px' }"></div><!-- /.rt-shape-emenetns-1 -->
+    <div class="rt-shape-emenetns-1"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-9 mx-auto text-center">
@@ -1291,7 +1290,7 @@
                 <div class="testimoninal-active-1">
     <div class="singleTbox-1 text-center active position-1" data-position="position-1">
         <div class="testi-thumb">
-            <div class="inner-bg" style="background-image: url(assets/images/testimonials/t_1.png)"></div><!-- /.inner-bg -->
+            <div class="inner-bg" style="background-image: url(assets/images/testimonials/t_1.png)"></div>
             <span class="social-badge"><i class="fab fa-linkedin-in    "></i></span>
         </div>
         <!-- /.testi-thumb -->
@@ -1572,7 +1571,7 @@
  -->
 
 
-<div class="spacer-top"></div><!-- /.spacer-top -->
+<!-- <div class="spacer-top"></div>
 <section class="brands-area">
     <div class="container">
         <div class="row">
@@ -1581,16 +1580,16 @@
                     <h2 class="rt-section-title">
                         <span>Take a Look at Our</span>
                         Trusted Partners
-                    </h2><!-- /.rt-section-title -->
+                    </h2>
                     <p>
                         We are committed to being the best partner.flyworld believes in being your trusted partner and
                         earning that trust through
                         confidence and performance in service and support.
                     </p>
-                </div><!-- /.rt-section-title-wrapper -->
-            </div><!-- /.col-lg-9 -->
-        </div><!-- /.row -->
-        <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+                </div>
+            </div>
+        </div>
+        <div class="section-title-spacer"></div>
         <div class="row">
             <div class="col-lg-9 mx-auto">
                 <ul class="rt-border-brands">
@@ -1598,89 +1597,88 @@
         <a href="#" class="wow flipInX d-block">
             <img src="assets/images/brands/brands-1.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="1s">
             <img src="assets/images/brands/brands-2.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="1.5s">
             <img src="assets/images/brands/brands-3.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="2s"> 
             <img src="assets/images/brands/brands-4.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="2.5s">
             <img src="assets/images/brands/brands-4.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="3s">
             <img src="assets/images/brands/brands-3.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="3.5s">
             <img src="assets/images/brands/brands-2.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
+    </li>
     <li class="single-border-brands">
         <a href="#" class="wow flipInX d-block" data-wow-duration="4s">
             <img src="assets/images/brands/brands-1.png" alt="brands image" draggable="false">
         </a>
-    </li><!-- /.single-border-brands -->
-</ul><!-- /.rt-border-brands -->
-            </div><!-- /.col-lg-7 -->
-        </div><!-- /.row -->
-    </div><!-- /.containe -->
-</section>
+    </li>
+ </ul>
+            </div>
+        </div>
+    </div>
+</section> -->
 <!-- 
     !============= Footer Area Start ===========!
  -->
 <section class="rt-site-footer" data-scrollax-parent="true">
-    <div class="rt-shape-emenetns-1" style="background-image: url(assets/images/shape-elements/shape-4.png)" data-scrollax="properties: { translateY: '340px' }"></div><!-- /.rt-shape-emenetns-1 -->   
-    <div class="footer-top rtbgprefix-cover" style="background-image: url(assets/images/backgrounds/footerbg.png)">
+    <!-- <div class="rt-shape-emenetns-1" style="background-image: url(assets/images/shape-elements/shape-4.png)" data-scrollax="properties: { translateY: '340px' }"></div>  -->
+    <div class="footer-top rtbgprefix-cover">
         <div class="footer-subscripbe-box wow fade-in-bottom">
            <div class="container">
-               <div class="row">
+               <!-- <div class="row">
                    <div class="col-xl-8 col-lg-10 mx-auto text-center">
                         <div class="rt-section-title-wrapper text-white">
                             <h2 class="rt-section-title">
                                 <span>Newsletter</span>
                         
                                 Get The Latest news
-                            </h2><!-- /.rt-section-title -->
+                            </h2>
                             <p>
                                 Get the latest travel inspirations and deals from flyworld semimonthly with your email. You can
                                 unsubscribe at any time. Your privacy & personal information will be treated.
                             </p>
-                        </div><!-- /.rt-section-title-wrapper -->
-                   </div><!-- /.col-lg-7 -->
-               </div><!-- /.row -->
-            <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
-            <div class="row">
+                        </div>
+                   </div>
+               </div> -->
+            <div class="section-title-spacer"></div>
+            <!-- <div class="row">
                 <div class="col-lg-7 mx-auto">
                     <div class="input-group mb-5">
                         <input type="text" class="form-control" placeholder="Enter your email address" aria-describedby="button-addon2">
                         <div class="input-group-append">
                             <button class="btn" type="button" id="button-addon2">Subcribe Now</button>
                         </div>
-                    </div><!-- end input gorup -->
-                </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
-               <div class="rt-dot-divider"></div><!-- /.rt-dot-divider -->
-           </div><!-- /.container -->
-        </div><!-- /.footer-subscripbe-box -->
+                    </div>
+                </div>
+               <div class="rt-dot-divider"></div>
+           </div> -->
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="1s">
-                        <h3 class="rt-footer-title">Company Info</h3><!-- /.rt-footer-title -->
+                        <h3 class="rt-footer-title">Company Info</h3>
                         <ul class="rt-usefulllinks">
                             <li>
                                 <a href="#">About Us</a>
@@ -1703,9 +1701,9 @@
                             
                         </ul>
 
-                    </div><!-- /.rt-single-widge -->
-                </div><!-- /.col-lg-3-->
-                <div class="col-lg-3 col-md-6">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
                     <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="1.5s">
                         <h3 class="rt-footer-title">Work With Us</h3>
                         <ul class="rt-usefulllinks">
@@ -1717,9 +1715,9 @@
                             <li><a href="#">Retirement Plan</a></li>
                             <li><a href="#">Travel APIs</a></li>
                         </ul>
-                    </div><!-- /.rt-single-widget -->
-                </div><!-- /.col-lg-3-->
-                <div class="col-lg-3 col-md-6">
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 col-md-3">
                     <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="2s">
                         <h3 class="rt-footer-title">
                             My Account
@@ -1731,10 +1729,10 @@
                             <li><a href="#">Order Sttatus</a></li>
                             <li><a href="#">Booking Guide</a></li>
                             <li><a href="#">Travel Insurance & Safety Guide</a></li>
-                        </ul><!-- /.rt-usefulllinks -->
-                    </div><!-- end single widget -->
-                </div><!-- /.col-lg-3-->
-                <div class="col-lg-3 col-md-6">
+                        </ul>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-6 col-md-3">
                     <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="2.5s">
                         <h3 class="rt-footer-title">
                             Plan Your Trip
@@ -1746,35 +1744,13 @@
                             <li><a href="#">Tour Packages</a></li>
                             <li><a href="#">Accommodations</a></li>
                             <li><a href="#">Transportation</a></li>
-                        </ul><!-- /.rt-usefulllinks -->
-                    </div><!-- end single widget -->
-                </div><!-- /.col-lg-3-->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.footer-top -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center text-lg-left">
-                <div class="copy-text wow fade-in-bottom" data-wow-duration="1s">
-                    Copyright © 2018.All Rights Reserved By <a href="#">flyworld</a>
-                </div><!-- /.copy-text -->
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 text-center text-lg-right">
-                    <div class="rt-footer-social wow fade-in-bottom" data-wow-duration="1.5s">
-                        <ul>
-                            <li><a href="#"><img src="assets/images/brands/card-1.png" alt="cardimage" draggable="false"></a></li>
-                            <li><a href="#"><img src="assets/images/brands/card-2.png" alt="cardimage" draggable="false"></a></li>
-                            <li><a href="#"><img src="assets/images/brands/card-3.png" alt="cardimage" draggable="false"></a></li>
-                            <li><a href="#"><img src="assets/images/brands/card-4.png" alt="cardimage" draggable="false"></a></li>
-                            <li><a href="#"><img src="assets/images/brands/card-5.png" alt="cardimage" draggable="false"></a></li>
-                            
                         </ul>
-                    </div><!-- /.rt-footer-social -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.footer-bottom -->
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    
 </section>
 
 
