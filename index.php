@@ -1192,7 +1192,7 @@
 </section> -->
 
 <!-- 
-    =======app area strat=========
+    =======app area start=========
  -->
 
 <!-- <div class="spacer-top"></div>
