@@ -93,20 +93,9 @@
         <li class="current-menu-item"><a href="#home" style="color: black;">Home</a></li>
         <li class="menu-item-has-children"><a href="#" style="color: black;">Holidays</a>
             <ul class="sub-menu">
-                <li class="menu-item-has-children"><a href="#">Home Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="index-2.html">Home One</a></li>
-                        <li><a href="index-02.html">Home Two</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Hotel Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="hotel-1.html">Hotel One</a></li>
-                        <li><a href="hotel-2.html">Hotel Two</a></li>
-                        <li><a href="hotel-3.html">Hotel Three</a></li>
-                    </ul>
-                </li>
-                
+                <li class="menu-item-has-children"><a href="#">Odisha Packages</a></li>
+                <li class="menu-item-has-children"><a href="#">India Packages</a></li>
+                <li class="menu-item-has-children"><a href="#">International Packages</a></li>
             </ul>
         </li>
         
