@@ -39,7 +39,7 @@
 
 
 <body>
-<p>HAHAHA</p>
+
 
   <!-- 
         ================== Header Area Start===================
@@ -101,63 +101,14 @@
         
         <li class="menu-item-has-children"><a href="#" style="color: black;">Car Rentals</a>
             <ul class="sub-menu">
-                <li class="menu-item-has-children"><a href="#">Home Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="index-2.html">Home One</a></li>
-                        <li><a href="index-02.html">Home Two</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Hotel Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="hotel-1.html">Hotel One</a></li>
-                        <li><a href="hotel-2.html">Hotel Two</a></li>
-                        <li><a href="hotel-3.html">Hotel Three</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Flight Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="flight-1.html">Flight One</a></li>
-                        <li><a href="flight-details.html">Flight Two</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">train Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="train-1.html">train One</a></li>
-                        <li><a href="train-2.html">train Two</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">trip Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="trip-1.html">trip One</a></li>
-                        <li><a href="trip-2.html">trip Two</a></li>
-                        <li><a href="trip-3.html">trip Three</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">car Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="car-1.html">car One</a></li>
-                        <li><a href="car-2.html">car Two</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">blog Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="blog.html">blog</a></li>
-                        <li><a href="blog-grid.html">blog-grid</a></li>
-                        <li><a href="single-blog.html">blog-single 1</a></li>
-                        <li><a href="singleblog-lsidebar.html">blog-single 2</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="#">Others Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="service-1.html">service</a></li>
-                        <li><a href="afflite.html">afflite</a></li>
-                        <li><a href="help.html">help</a></li>
-                        <li><a href="how-work.html">how-work</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                        <li><a href="404.html">404</a></li>
-                    </ul>
-                </li>
+                <li class="menu-item-has-children"><a href="#">Home Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">Hotel Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">Flight Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">train Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">trip Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">car Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">blog Pages</a></li>
+                <li class="menu-item-has-children"><a href="#">Others Pages</a></li>
             </ul>
         </li>
         <li><a href="service-1.html" style="color: black;">Luxury Cars</a></li>
