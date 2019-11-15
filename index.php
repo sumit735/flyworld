@@ -553,7 +553,7 @@
             <li class="nav-item">
                 <a class="nav-link active" id="first-tab" data-target="#rt-item_b_first" data-secondary="#rt-item_a_first"
                     data-toggle="tab" href="#first" role="tab" aria-controls="first-tab" aria-selected="false">
-                    <i class="icofont-airplane"></i>
+                    <i class="icofont-car"></i>
                     <span>Tours</span>
                 </a>
             </li>
@@ -576,7 +576,7 @@
                 <a class="nav-link inactive" id="four-tab" data-target="#rt-item_b_four" data-secondary="#rt-item_a_four"
                     data-toggle="tab" href="#four" role="tab" aria-controls="four-tab" aria-selected="false">
                     <i class="icofont-train-line"></i>
-                    <span>Trains</span>
+                    <span>Pickups</span>
                 </a>
             </li>
         </ul>
