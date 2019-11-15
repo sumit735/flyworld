@@ -724,8 +724,8 @@
                                 markets or lavish Grand Palace.
                             </p>
                             <div class="rt-button-group">
-                                <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a>
-                                <a href="#" class="rt-btn rt-outline-gradientL rt-rounded">Help Me Plan My Trip</a>
+                                <!-- <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a> -->
+                                <a href="#" class="rt-btn rt-outline-gradientL rt-rounded">Book Now</a>
                             </div>
                         </div><!-- /.deal-bottom-content -->
                     </div><!-- /.rt-section-title-wrapper -->
