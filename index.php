@@ -51,7 +51,7 @@
     </div><!-- /.preloder-box -->
 </div><!-- /.rt-preloder -->
 
-  <header class="rt-site-header  rt-fixed-top black-menu">
+  <header class="rt-site-header  rt-fixed-top white-menu">
     <div class="top-header d-none d-md-block">
     <div class="container">
         <div class="row align-items-center">
