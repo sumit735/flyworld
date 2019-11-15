@@ -883,14 +883,14 @@
         </div><!-- /.row -->
         <div class="row grid">
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-5 cat-4">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-1.jpg)">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-7.jpg)">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
-                    <div class="portfolio-badge">
+                    <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
-                    </div><!-- /.portfolio-badge -->
+                    </div> -->
                     <div class="inner-content text-white">
-                        <h6>The Millenium Hilton New York</h6>
+                        <h6>BMW</h6>
                         <p> <span>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -906,10 +906,10 @@
             <div class="col-lg-4 col-md-6 grid-item cat-2 cat-3 cat-5">
                 <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-2.jpg)" data-wow-duration="1s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
-                    <div class="portfolio-badge">
+                    <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
-                    </div><!-- /.portfolio-badge -->
+                    </div> -->
                     <div class="inner-content text-white">
                         <h6>The Millenium Hilton New York</h6>
                         <p> <span>
@@ -927,10 +927,10 @@
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-4">
                 <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-3.jpg)" data-wow-duration="1.3s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
-                    <div class="portfolio-badge">
+                    <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
-                    </div><!-- /.portfolio-badge -->
+                    </div> -->
                     <div class="inner-content text-white">
                         <h6>The Millenium Hilton New York</h6>
                         <p> <span>
@@ -948,10 +948,10 @@
             <div class="col-lg-4 col-md-6 grid-item cat-4 cat-3 cat-5">
                 <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-4.jpg)" data-wow-duration="1.6s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
-                    <div class="portfolio-badge">
+                    <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
-                    </div><!-- /.portfolio-badge -->
+                    </div> -->
                     <div class="inner-content text-white">
                         <h6>The Millenium Hilton New York</h6>
                         <p> <span>
@@ -969,10 +969,10 @@
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-5">
                 <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-5.jpg)" data-wow-duration="1.9s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
-                    <div class="portfolio-badge">
+                    <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
-                    </div><!-- /.portfolio-badge -->
+                    </div> -->
                     <div class="inner-content text-white">
                         <h6>The Millenium Hilton New York</h6>
                         <p> <span>
@@ -990,10 +990,10 @@
             <div class="col-lg-4 col-md-6 grid-item cat-3 cat-5">
                 <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-6.jpg)" data-wow-duration="2.2s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
-                    <div class="portfolio-badge">
+                    <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
-                    </div><!-- /.portfolio-badge -->
+                    </div> -->
                     <div class="inner-content text-white">
                         <h6>The Millenium Hilton New York</h6>
                         <p> <span>
