@@ -91,7 +91,7 @@
 <div class="main-menu">
     <ul>
         <li class="current-menu-item"><a href="#home" style="color: black;">Home</a></li>
-        <li class="menu-item-has-children"><a href="#">Holidays</a>
+        <li class="menu-item-has-children"><a href="#" style="color: black;">Holidays</a>
             <ul class="sub-menu">
                 <li class="menu-item-has-children"><a href="#">Home Pages</a>
                     <ul class="sub-menu">
@@ -110,7 +110,7 @@
             </ul>
         </li>
         
-        <li class="menu-item-has-children"><a href="#">Car Rentals</a>
+        <li class="menu-item-has-children"><a href="#" style="color: black;">Car Rentals</a>
             <ul class="sub-menu">
                 <li class="menu-item-has-children"><a href="#">Home Pages</a>
                     <ul class="sub-menu">
@@ -171,9 +171,9 @@
                 </li>
             </ul>
         </li>
-        <li><a href="service-1.html">Luxury Cars</a></li>
-        <li> <a href="blog.html">Wedding Cars</a></li>
-        <li class="menu-item-has-children"><a href="#">Places</a>
+        <li><a href="service-1.html" style="color: black;">Luxury Cars</a></li>
+        <li> <a href="blog.html" style="color: black;">Wedding Cars</a></li>
+        <li class="menu-item-has-children"><a href="#" style="color: black;">Places</a>
             <ul class="sub-menu">
                 <li class="menu-item-has-children"><a href="#">Home Pages</a>
                     <ul class="sub-menu">
