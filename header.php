@@ -30,7 +30,7 @@
 
 <style>
 
-    .col {
+    .footstyle {
         background: #ff00cc;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -48,13 +48,12 @@
         box-shadow: 0 1px 10px 0 rgba(55, 94, 246, .1);
     }
 
+    .rt-banner-height1 {
+        height: 0vh;
+    }
+
 </style>
 
-
-    <!--[if lt IE 9]>
-<script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 
 
