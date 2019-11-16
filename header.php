@@ -37,6 +37,17 @@
 
     }
 
+    .change {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        -webkit-box-shadow: 0 1px 10px 0 rgba(55, 94, 246, .1);
+        box-shadow: 0 1px 10px 0 rgba(55, 94, 246, .1);
+    }
+
 </style>
 
 
@@ -89,13 +100,12 @@
 </div> <!-- end top header -->
 
 
-    <div class="main-header rt-sticky">
+    <div class="main-header change rt-sticky-active fadeInDown animated">
       <nav class="navbar">
         <div class="container">
             <!-- <a href="index-2.php" class="brand-logo"><img src="assets/images/logo/logo.png" alt=""></a> -->
             <!-- <a href="index-2.php" class="sticky-logo"><img src="assets/images/logo/logo.png" alt=""></a> -->
         <div class="ml-auto d-flex align-items-center">
-    </div>      
 
 <div class="main-menu">
     <ul>
