@@ -1,5 +1,14 @@
 <?php include "includes/header.php"; ?>
+<?php 
 
+    if(isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $num = $_POST['phone'];
+        $msg = $_POST['msg'];
+    }
+
+?>
 
 
 <!-- Modal -->
@@ -126,12 +135,12 @@
                     <p>Any kind of travel information don't hesitate to contact with us for imiditate
                     customer support. We are love to hear from you</p>
                     <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
-                    <form action="contactpost.php" method="post" class="rt-form rt-line-form">
-                    <input type="text" name="name" placeholder="Name" class="form-control rt-mb-30">
-                    <input type="email" name="email" placeholder="Email" class="form-control rt-mb-30">
-                    <input type="number" name="phone" placeholder="Mobile No." class="form-control rt-mb-30">
-                    <textarea placeholder="Message" name="msg" class="form-control rt-mb-30"></textarea>
-                    <input name="submit" type="submit" value="Submit" class="rt-btn rt-gradient pill text-uppercase rt-mb-30">
+                    <form action="contact.php" method="post" class="rt-form rt-line-form">
+                        <input type="text" name="name" placeholder="Name" class="form-control rt-mb-30">
+                        <input type="email" name="email" placeholder="Email" class="form-control rt-mb-30">
+                        <input type="number" name="phone" placeholder="Mobile No." class="form-control rt-mb-30">
+                        <textarea placeholder="Message" name="msg" class="form-control rt-mb-30"></textarea>
+                        <input name="submit" type="submit" value="Submit" class="rt-btn rt-gradient pill text-uppercase rt-mb-30">
                     </form>
                 </div><!-- /.rt-section-title-wrapper -->
             </div><!-- /.col-lg-9 -->
