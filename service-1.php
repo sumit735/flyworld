@@ -1,8 +1,6 @@
 <?php include "includes/header.php"; ?>
 
 
-
-
 <!-- <div class="modal fade" id="rtmodal-1" tabindex="-1" role="dialog" aria-labelledby="rtmodal-1"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered rt-lgoinmodal " role="document">
