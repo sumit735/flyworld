@@ -729,7 +729,7 @@
         </div><!-- /.row -->
         <div class="row grid">
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-5 cat-4">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-7.jpg)">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-1.jpg)">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
                     <!-- <div class="portfolio-badge">
                         <span>From</span>
@@ -750,7 +750,7 @@
                 </div><!-- /.portfolio-box-1 -->
             </div><!-- /.col-md-4 -->
             <div class="col-lg-4 col-md-6 grid-item cat-2 cat-3 cat-5">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-2.jpg)" data-wow-duration="1s">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-8.jpg)" data-wow-duration="1s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
                     <!-- <div class="portfolio-badge">
                         <span>From</span>
