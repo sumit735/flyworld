@@ -127,10 +127,11 @@
                     customer support. We are love to hear from you</p>
                     <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
                     <form action="#" class="rt-form rt-line-form">
-                        <input type="text" placeholder="Name" class="form-control rt-mb-30">
-                        <input type="email" placeholder="Email" class="form-control rt-mb-30">
-                        <textarea placeholder="Message" class="form-control rt-mb-30"></textarea>
-                        <input type="submit" value="SUBMIT NOW" class="rt-btn rt-gradient pill text-uppercase rt-mb-30">
+                        <input type="text" name="name" placeholder="Name" class="form-control rt-mb-30">
+                        <input type="email" name="email" placeholder="Email" class="form-control rt-mb-30">
+                        <input type="number" name="phone" placeholder="Mobile No." class="form-control rt-mb-30">
+                        <textarea placeholder="Message" name="msg" class="form-control rt-mb-30"></textarea>
+                        <input name="submit" type="submit" value="SUBMIT NOW" class="rt-btn rt-gradient pill text-uppercase rt-mb-30">
                     </form>
                 </div><!-- /.rt-section-title-wrapper -->
             </div><!-- /.col-lg-9 -->

@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 
 <style>
-
+<p>Hello</p>
 .rt-banner-height1 {
     height: 20vh;
 }
