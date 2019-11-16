@@ -99,7 +99,7 @@
 
 <div class="main-menu">
     <ul>
-        <li class="current-menu-item"><a href="http://localhost/flyworld/" style="color: black;">Home</a></li>
+        <li class="current-menu-item"><a href="index.php" style="color: black;">Home</a></li>
         <li class="menu-item-has-children"><a href="#" style="color: black;">Holidays</a>
             <ul class="sub-menu">
                 <li class="sub-menu"><a href="#">Odisha Packages</a></li>
