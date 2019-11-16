@@ -892,7 +892,7 @@
                 </div><!-- /.rt-section-title-wrapper -->
             </div><!-- /.col-lg-9 -->
         </div><!-- /.row -->
-        <div class="section-title-spacer"></div><!-- /.section-title-spacer -->
+        <div class="section-title-spacer"></div>
         <div class="row">
             <div class="col-xl-8 col-lg-10">
                 <div class="row">
