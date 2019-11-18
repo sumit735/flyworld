@@ -1,5 +1,7 @@
 <?php include "header.php"; ?>
 
+
+
 <html>
  <body>
   <section class="content-area">
@@ -104,6 +106,7 @@
                     </form>
                 </div><!-- /.flight-list-box -->
                 <!-- /.flight-list-box -->
+                <button type="submit" style="margin-left:50vh;text-align:center;background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">Submit</button>
             </div><!-- /.col-lg-9 -->
             <!-- /.col-lg-3 -->
         </div><!-- /.row -->

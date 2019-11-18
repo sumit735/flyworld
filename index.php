@@ -105,7 +105,7 @@
         <div class="rt-banner-searchbox standard-search wow fade-in-bottom" data-wow-duration="1s" data-wow-delay="1s">
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane show active" id="rt-item_a_first" role="tabpanel" aria-labelledby="rt-item_a_first">
-                    <form action="#">
+                    <form action="service-1.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="Your City">
@@ -128,7 +128,7 @@
                     </form>
                 </div> 
                 <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
-                    <form action="#">
+                    <form action="service-1.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="City Name">
@@ -162,7 +162,7 @@
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_third" role="tabpanel" aria-labelledby="rt-item_a_third">
-                    <form action="#">
+                    <form action="service-1.php">
                     
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
@@ -186,7 +186,7 @@
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_four" role="tabpanel" aria-labelledby="rt-item_a_four">
-                    <form action="#">
+                    <form action="service-1.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="City Name">
