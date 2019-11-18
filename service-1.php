@@ -106,7 +106,7 @@
                     </form>
                 </div><!-- /.flight-list-box -->
                 <!-- /.flight-list-box -->
-                <button type="submit" style="margin-left:50vh;text-align:center;background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);">Submit</button>
+                <button type="submit" class="rt-btn rt-gradient rt-Bshadow-2 rt-rounded rt-sm text-uppercase">Submit</button>
             </div><!-- /.col-lg-9 -->
             <!-- /.col-lg-3 -->
         </div><!-- /.row -->
