@@ -108,17 +108,17 @@
                     <form action="book.php" method="post">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" name="source" class="form-control" placeholder="Source">
+                                <input type="text" required name="source" class="form-control" placeholder="Source">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" name="destination" class="form-control" placeholder="Destination">
+                                <input type="text" required name="destination" class="form-control" placeholder="Destination">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" name="checkin" class="form-control rt-date-picker has-icon" placeholder="Depart">
+                                <input type="text" required name="checkin" class="form-control rt-date-picker has-icon" placeholder="Depart">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" name="checkout" class="form-control rt-date-picker has-icon" placeholder="Return">
+                                <input type="text" required name="checkout" class="form-control rt-date-picker has-icon" placeholder="Return">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             

@@ -3,8 +3,15 @@
 <?php 
 
     if(isset($_POST['submit'])) {
-        
+        extract($_POST);
+
+
     }
+
+    $source = "";
+    $destination = "";
+    $checkin = "";
+    $checkout = "";
 
 ?>
 
@@ -24,48 +31,76 @@
                 <div class="flight-list-box rt-mb-30 pt-30">
                     <?php 
 
-                    // print_r($_POST);
 
                     ?>
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
                     <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->
                     <br>
                     <br>
-                    <form action="book.php" class="rt-form rt-line-form flight-lable">
+                    <form action="book.php" method="post" class="rt-form rt-line-form flight-lable">
+                        <?php 
+
+                            if(isset($_POST['finalSubmit'])) {
+                                    
+                             extract($_POST);
+
+                             echo $firstname;
+                             echo $lastname;
+                             echo $num;
+                             echo $altnum;
+                             echo $src;
+                             echo $dest;
+                             echo $passenger;
+                             echo $checkin1;
+                             echo $checkout1;
+                             echo $fullname;
+                             echo $cemail;
+
+
+                            }
+                        
+                        ?>
                         <div class="row">
                             <div class="col-md-6 rt-mb-30 ">
                                 <label for="fst-name">First Name</label>
-                                <input type="text" required class="form-control" id="fst-name"
+                                <input type="text" required class="form-control" name="firstname" id="fst-name"
                                     placeholder="Enter Your First Name ">
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
                                 <label for="lst-name">Last Name</label>
-                                <input type="text" required class="form-control" id="lst-name"
+                                <input type="text" required class="form-control" name="lastname" id="lst-name"
                                     placeholder="Enter Your Last Name ">
                             </div><!-- /.col-md-6 -->
                             <div class="col-lg-6 rt-mb-30">
                                 <label for="mob">Mobile Number</label>
-                                <input type="number" required class="form-control" id="mob"
+                                <input type="number" required class="form-control" id="mob" name="num"
                                     placeholder="Enter Your phone Number ">
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
                                 <label for="id-number">Alternate Mobile Number</label>
-                                <input type="number" required name="altnum" placeholder="Alternate Mobile Number" class="form-control">
+                                <input type="number" required name="altnum"  placeholder="Alternate Mobile Number" class="form-control">
                             </div><!-- /.col-md-6 -->
                             <div class="col-lg-6 rt-mb-30">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label>Gender</label>
+                                        <label>Source</label>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gender"
-                                                id="inlineRadio2s" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2s">Female</label>
+                                            <input type="text" value="<?php 
+                                            if($source != ""){ 
+                                                echo $source; 
+                                            }
+                                            ?>" name="src"  required class="form-control" id="fst-name" placeholder="Source">
                                         </div>
+                                        <label>Destination</label>
+                                        <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" required type="radio" name="gender"
-                                                id="inlineRadio2ss" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2ss">Male</label>
+                                            <input type="text" value="<?php
+                                            if($destination != ""){ 
+                                                echo $destination; 
+                                            }
+                                            ?>"  name="dest" required class="form-control" id="fst-name" placeholder="Destination ">
+                                            
                                         </div>
                                     </div><!-- /.col-md-6 -->
                                     
@@ -82,42 +117,45 @@
                                     <option value="3">3</option>
                                     <option value="4">4</option>
                                     <option value="4+">4+</option>
-
                                 </select>
                             </div><!-- /.col-md-6 -->
                             
                             <div class="col-md-6 rt-mb-30">
                                 <label for="st-date">Start Date</label>
-                                <input type="text" required class="form-control rt-date-picker" name="checkin" placeholder="date" id="st-date">
+                                <input type="text" value="<?php
+                                if($destination != ""){  
+                                    echo $checkin; 
+                                }
+                                ?>"  required class="form-control rt-date-picker" name="checkin1" placeholder="date" id="st-date">
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
-                                <label for="st-date">End Date</label>
-                                <input type="text" required class="form-control rt-date-picker" name="checkout" placeholder="date" id="st-date">
+                                <label for="en-date">End Date</label>
+                                <input type="text" required value="<?php
+                                if($destination != ""){  
+                                    echo $checkout; 
+                                }
+                                ?>"  class="form-control rt-date-picker" name="checkout1" placeholder="date" id="en-date">
                             </div><!-- /.col-md-6 -->
                         </div><!-- /.row -->
-                    </form>
                 </div><!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
                     <h6 class="text-333 rt-semiblod">Your Contact Details</h6> <br>
-                    <form action="#" class="rt-form rt-line-form flight-lable">
-                        <div class="row">
+                        <div class="row rt-form rt-line-form flight-lable">
                             <div class="col-md-6 rt-mb-30">
                                 <label for="contact-name">Contact name</label>
-                                <input type="text" required placeholder="Contact name" id="contact-name">
+                                <input type="text" name="fullname" required placeholder="Contact name" id="contact-name">
                             </div><!-- /.col-md-6 -->
-                            <div class="col-md-6 rt-mb-30">
-                                <label for="mbl-name">Mobile phone</label>
-                                <input type="tel" required placeholder="Enter Your Number" id="mbl-name">
-                            </div><!-- /.col-md-6 -->
+                            
                             <div class="col-md-6">
                                 <label for="eml-name">Email</label>
-                                <input type="tel" required placeholder="Enter Your Email" id="eml-name">
+                                <input type="tel" name="cemail" required placeholder="Enter Your Email" id="eml-name">
                             </div><!-- /.col-md-6 -->
                         </div><!-- /.row -->
+                        <button type="submit" name="finalSubmit" class="rt-btn rt-gradient rt-Bshadow-2 rt-rounded rt-sm text-uppercase">Submit</button>
                     </form>
                 </div><!-- /.flight-list-box -->
                 <!-- /.flight-list-box -->
-                <button type="submit" class="rt-btn rt-gradient rt-Bshadow-2 rt-rounded rt-sm text-uppercase">Submit</button>
+                
             </div><!-- /.col-lg-9 -->
             <!-- /.col-lg-3 -->
         </div><!-- /.row -->
@@ -126,25 +164,6 @@
     
  </body>
 </html>
-
-
-
-
-
-<!-- 
-    !============= Footer Area Start ===========!
- -->
-
-
-
-
-<!-- ==================Start Js Link===================== -->
-
-
-<!-- ==================End Js Link===================== -->
-
-
-
 
 
 
