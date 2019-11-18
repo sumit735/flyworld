@@ -1,17 +1,14 @@
 <?php include "header.php"; ?>
 <?php 
-
+    $result = "";
     if(isset($_POST['submit'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $num = $_POST['phone'];
         $msg = $_POST['msg'];
         $headers = "MIME-Version: 1.0" . "\r\n";
-     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-     $body = $name."<br>".$email."<br>".$num."<br>".$msg."<br>".$headers;
- 
-
-mail($to, $subject, $body, $headers);
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $body = $name."<br>".$email."<br>".$num."<br>".$msg."<br>".$headers;
 
     if(mail("sumitkumardash1999@gmail.com", "contact us", $body, $headers)) {
         $result = "Thanks for contacting us. We will get back to you soon!";
@@ -154,6 +151,13 @@ mail($to, $subject, $body, $headers);
                         <textarea placeholder="Message" name="msg" class="form-control rt-mb-30"></textarea>
                         <input name="submit" type="submit" value="Submit" class="rt-btn rt-gradient pill text-uppercase rt-mb-30">
                     </form>
+                    <?php 
+                    
+                        if($result != "") {
+                            echo $result;
+                        }
+                    
+                    ?>
                 </div><!-- /.rt-section-title-wrapper -->
             </div><!-- /.col-lg-9 -->
         </div><!-- /.row -->
@@ -208,88 +212,9 @@ mail($to, $subject, $body, $headers);
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
-    <!-- <div class="googleMap">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.1509316622!2d90.34928591742289!3d23.780620653401414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1569663745803!5m2!1sen!2sbd"
-            width="100%" height="582" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </div> -->
 </section>
 
 
-
-<!-- 
-    ============= Brands area start==========
- -->
-
- <!-- <section class="brands-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 mx-auto text-center">
-                <div class="rt-section-title-wrapper">
-                    <h2 class="rt-section-title">
-                        <span>Take a Look at Our</span>
-                        Trusted Partners
-                    </h2>
-                    <p>
-                        We are committed to being the best partner.Emigrar believes in being your trusted partner and
-                        earning that trust through
-                        confidence and performance in service and support.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="section-title-spacer"></div>
-        <div class="row">
-            <div class="col-lg-9 mx-auto">
-                <ul class="rt-border-brands">
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block">
-            <img src="assets/images/brands/brands-1.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="1s">
-            <img src="assets/images/brands/brands-2.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="1.5s">
-            <img src="assets/images/brands/brands-3.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="2s"> 
-            <img src="assets/images/brands/brands-4.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="2.5s">
-            <img src="assets/images/brands/brands-4.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="3s">
-            <img src="assets/images/brands/brands-3.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="3.5s">
-            <img src="assets/images/brands/brands-2.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-    <li class="single-border-brands">
-        <a href="#" class="wow flipInX d-block" data-wow-duration="4s">
-            <img src="assets/images/brands/brands-1.png" alt="brands image" draggable="false">
-        </a>
-    </li>
-</ul>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- 
-    !============= Footer Area Start ===========!
 
 <?php include "footer.php"; ?>
 
