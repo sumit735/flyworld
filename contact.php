@@ -1,4 +1,4 @@
-<?php include "includes/header.php"; ?>
+<?php include "header.php"; ?>
 <?php 
 
     if(isset($_POST['submit'])) {
@@ -291,6 +291,6 @@ mail($to, $subject, $body, $headers);
 <!-- 
     !============= Footer Area Start ===========!
 
-<?php include "includes/footer.php"; ?>
+<?php include "footer.php"; ?>
 
 
