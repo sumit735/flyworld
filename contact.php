@@ -6,6 +6,18 @@
         $email = $_POST['email'];
         $num = $_POST['phone'];
         $msg = $_POST['msg'];
+        $headers = "MIME-Version: 1.0" . "\r\n";
+     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+     $body = $name."<br>".$email."<br>".$num."<br>".$msg."<br>".$headers;
+ 
+
+mail($to, $subject, $body, $headers);
+
+    if(mail("sumitkumardash1999@gmail.com", "contact us", $body, $headers)) {
+        $result = "Thanks for contacting us. We will get back to you soon!";
+    } else {
+        $result = "Sorry! Something went wrong";
+    }
     }
 
 ?>
