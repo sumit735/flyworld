@@ -120,7 +120,7 @@
             </ul>
         </li>
         <li><a href="luxurycar.php" style="color: black;">Luxury Cars</a></li>
-        <li> <a href="blog.php" style="color: black;">Wedding Cars</a></li>
+        <li><a href="weddingcars.php" style="color: black;">Wedding Cars</a></li>
         <li class="menu-item-has-children"><a href="#" style="color: black;">Places</a>
             <ul class="sub-menu">
                 <li class="sub-menu"><a href="#">Bhubaneswar</a></li>
