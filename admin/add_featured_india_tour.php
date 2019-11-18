@@ -25,7 +25,7 @@
                     // print_r($_POST);
 
                     ?>
-                    <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Feature Odisha Tour</h4>
+                    <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Feature India Tour</h4>
                     <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->
                     <br>
                     <br>
