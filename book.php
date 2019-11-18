@@ -1,4 +1,11 @@
-<?php include "header.php"; ?>
+<?php include "header.php"; 
+
+$source = "";
+    $destination = "";
+    $checkin = "";
+    $checkout = "";
+
+?>
 
 <?php 
 
@@ -8,10 +15,7 @@
 
     }
 
-    $source = "";
-    $destination = "";
-    $checkin = "";
-    $checkout = "";
+    
 
 ?>
 
