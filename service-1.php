@@ -1,4 +1,4 @@
-<?php include "includes/header.php"; ?>
+<?php include "header.php"; ?>
 
 
 <!-- <div class="modal fade" id="rtmodal-1" tabindex="-1" role="dialog" aria-labelledby="rtmodal-1"
@@ -322,12 +322,27 @@
     </div>
 </section> -->
 
+<html>
+    <body>
+        <div class="section-title-spacer"></div>
+        <form action="service-1.php" method="post" class="container" class="form-control rt-mb-30">
+            <input type="text" name="fname" placeholder="First Name" class="form-control rt-mb-30">
+            <input type="text" name="lname" placeholder="Last Name" class="form-control rt-mb-30">
+            <input type="email" name="email" placeholder="Email" class="form-control rt-mb-30">
+            <input type="number" name="phone" placeholder="Mobile No." class="form-control rt-mb-30">
+            <input name="submit" type="submit" value="Submit" class="rt-btn rt-gradient pill text-uppercase rt-mb-30">
+        </form>
+    </body>
+</html>
+   
+ 
+
 
 
 <!-- 
     !============= Footer Area Start ===========!
  -->
- <?php include "includes/footer.php"; ?>
+ <?php include "footer.php"; ?>
 
 
 
