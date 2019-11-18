@@ -72,32 +72,31 @@
 
 
 <!-- ==================Start Js Link===================== -->
-<script src="assets/js/jquery-2.2.4.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/moment.min.js"></script>
-<script src="assets/js/jquery.easing.1.3.js"></script>
-<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-<script src="assets/js/isotope.pkgd.min.js"></script>
-<script src="assets/js/instafeed.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<script src="assets/js/jquery.counterup.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/jquery.scrollUp.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/jquery.overlayScrollbars.min.js"></script>
-<script src="assets/js/jquery-ui.js"></script>
-<script src="assets/js/jquery.appear.js"></script>
-<script src="assets/js/select2.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/slider-range.js"></script>
-<script src="assets/js/vivus.min.js"></script>
-<script src="assets/js/tippy.all.min.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="../assets/js/jquery-2.2.4.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/moment.min.js"></script>
+<script src="../assets/js/jquery.easing.1.3.js"></script>
+<script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="../assets/js/isotope.pkgd.min.js"></script>
+<script src="../assets/js/instafeed.min.js"></script>
+<script src="../assets/js/waypoints.min.js"></script>
+<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="../assets/js/jquery.magnific-popup.min.js"></script>
+<script src="../assets/js/jquery.scrollUp.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/TweenMax.min.js"></script>
+<script src="../assets/js/scrollax.min.js"></script>
+<script src="../assets/js/wow.js"></script>
+<script src="../assets/js/jquery.overlayScrollbars.min.js"></script>
+<script src="../assets/js/jquery-ui.js"></script>
+<script src="../assets/js/jquery.appear.js"></script>
+<script src="../assets/js/select2.min.js"></script>
+<script src="../assets/js/slick.min.js"></script>
+<script src="../assets/js/slider-range.js"></script>
+<script src="../assets/js/vivus.min.js"></script>
+<script src="../assets/js/tippy.all.min.js"></script>
+<script src="../assets/js/app.js"></script>
 
 <!-- ==================End Js Link===================== -->
 

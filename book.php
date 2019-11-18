@@ -1,5 +1,12 @@
 <?php include "header.php"; ?>
 
+<?php 
+
+    if(isset($_POST['submit'])) {
+        
+    }
+
+?>
 
 
 <html>
@@ -15,93 +22,96 @@
                 <!-- /.flt-dtls-box -->
                 <!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
+                    <?php 
+
+                    // print_r($_POST);
+
+                    ?>
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
-                    <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6>
+                    <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->
                     <br>
                     <br>
-                    <form action="#" class="rt-form rt-line-form flight-lable">
+                    <form action="book.php" class="rt-form rt-line-form flight-lable">
                         <div class="row">
                             <div class="col-md-6 rt-mb-30 ">
                                 <label for="fst-name">First Name</label>
-                                <input type="text" class="form-control" id="fst-name"
+                                <input type="text" required class="form-control" id="fst-name"
                                     placeholder="Enter Your First Name ">
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
                                 <label for="lst-name">Last Name</label>
-                                <input type="text" class="form-control" id="lst-name"
+                                <input type="text" required class="form-control" id="lst-name"
                                     placeholder="Enter Your Last Name ">
                             </div><!-- /.col-md-6 -->
                             <div class="col-lg-6 rt-mb-30">
-                                <label for="select-1"></label>
-                                <select id="select-1">
-                                    <option value="1" disabled selected>Select or enter the first character</option>
-                                    <option value="2">Alaska</option>
-                                    <option value="3">Bahamas</option>
-                                    <option value="4">Bermuda</option>
-                                    <option value="5">Canada</option>
-                                    <option value="6">Caribbean</option>
-                                    <option value="7">Europe</option>
-                                    <option value="8">Hawaii</option>
-                                </select>
+                                <label for="mob">Mobile Number</label>
+                                <input type="number" required class="form-control" id="mob"
+                                    placeholder="Enter Your phone Number ">
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6 rt-mb-30">
+                                <label for="id-number">Alternate Mobile Number</label>
+                                <input type="number" required name="altnum" placeholder="Alternate Mobile Number" class="form-control">
                             </div><!-- /.col-md-6 -->
                             <div class="col-lg-6 rt-mb-30">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label>Date</label>
+                                        <label>Gender</label>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            <input class="form-check-input" type="radio" name="gender"
                                                 id="inlineRadio2s" value="option2">
                                             <label class="form-check-label" for="inlineRadio2s">Female</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            <input class="form-check-input" required type="radio" name="gender"
                                                 id="inlineRadio2ss" value="option2">
                                             <label class="form-check-label" for="inlineRadio2ss">Male</label>
                                         </div>
                                     </div><!-- /.col-md-6 -->
-                                    <div class="col-md-6">
-                                        <label for="st-date">date</label>
-                                        <input type="text" class="form-control rt-date-picker" placeholder="date"
-                                            id="st-date">
-                                    </div><!-- /.col-md-6 -->
+                                    
+                                    
                                 </div><!-- /.row -->
+                                
                             </div><!-- /.col-md-6 -->
+                            
                             <div class="col-md-6 rt-mb-30">
-                                <label for="select-2">ID</label>
-                                <select id="select-2">
-                                    <option value="1">Passport</option>
-                                    <option value="2">NID</option>
-                                    <option value="3">NTO</option>
+                                <label for="select-2">Passengers</label>
+                                <select name="passenger" required id="select-2">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="4+">4+</option>
 
                                 </select>
                             </div><!-- /.col-md-6 -->
+                            
                             <div class="col-md-6 rt-mb-30">
-                                <label for="id-number">ID Number</label>
-                                <input type="text" placeholder="ID Number" class="form-control">
+                                <label for="st-date">Start Date</label>
+                                <input type="text" required class="form-control rt-date-picker" name="checkin" placeholder="date" id="st-date">
                             </div><!-- /.col-md-6 -->
-                            <div class="col-md-6">
-                                <p class="f-size-14">Please ensure the ID is valid for at least 6 months
-                                    after the date of departure.</p>
-                            </div><!-- /.col-12 -->
+                            <div class="col-md-6 rt-mb-30">
+                                <label for="st-date">End Date</label>
+                                <input type="text" required class="form-control rt-date-picker" name="checkout" placeholder="date" id="st-date">
+                            </div><!-- /.col-md-6 -->
                         </div><!-- /.row -->
                     </form>
                 </div><!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
-                    <h6 class="text-333 rt-semiblod">Contact Details</h6> <br>
+                    <h6 class="text-333 rt-semiblod">Your Contact Details</h6> <br>
                     <form action="#" class="rt-form rt-line-form flight-lable">
                         <div class="row">
                             <div class="col-md-6 rt-mb-30">
                                 <label for="contact-name">Contact name</label>
-                                <input type="text" placeholder="Contact name" id="contact-name">
+                                <input type="text" required placeholder="Contact name" id="contact-name">
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
                                 <label for="mbl-name">Mobile phone</label>
-                                <input type="tel" placeholder="Enter Your Number" id="mbl-name">
+                                <input type="tel" required placeholder="Enter Your Number" id="mbl-name">
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
                                 <label for="eml-name">Email</label>
-                                <input type="tel" placeholder="Enter Your Email" id="eml-name">
+                                <input type="tel" required placeholder="Enter Your Email" id="eml-name">
                             </div><!-- /.col-md-6 -->
                         </div><!-- /.row -->
                     </form>

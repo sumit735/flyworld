@@ -105,30 +105,31 @@
         <div class="rt-banner-searchbox standard-search wow fade-in-bottom" data-wow-duration="1s" data-wow-delay="1s">
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane show active" id="rt-item_a_first" role="tabpanel" aria-labelledby="rt-item_a_first">
-                    <form action="service-1.php">
+                    <form action="book.php" method="post">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="Your City">
+                                <input type="text" name="source" class="form-control" placeholder="Source">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
+                                <input type="text" name="destination" class="form-control" placeholder="Destination">
+                            </div><!-- /.single-input -->
+                            <div class="single-input  col-rt-in-3">
+                                <input type="text" name="checkin" class="form-control rt-date-picker has-icon" placeholder="Depart">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Return">
+                                <input type="text" name="checkout" class="form-control rt-date-picker has-icon" placeholder="Return">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
-                            <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="message(optional)">
-                            </div><!-- /.single-input -->
+                            
                             <div class="single-input  col-rt-in-1">
-                                <button type="submit"><i class="icofont-search"></i></button>
+                                <button type="submit" name="submit"><i class="icofont-search"></i></button>
                             </div><!-- /.single-input -->
                         </div>
                     </form>
                 </div> 
                 <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
-                    <form action="service-1.php">
+                    <form action="book.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="City Name">
@@ -162,7 +163,7 @@
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_third" role="tabpanel" aria-labelledby="rt-item_a_third">
-                    <form action="service-1.php">
+                    <form action="book.php">
                     
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
@@ -186,7 +187,7 @@
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_four" role="tabpanel" aria-labelledby="rt-item_a_four">
-                    <form action="service-1.php">
+                    <form action="book.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="City Name">
