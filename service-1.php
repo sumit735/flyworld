@@ -4,12 +4,13 @@
 
 <html>
  <body>
+ <div class="spacer-bottom"></div>
   <section class="content-area">
     <div class="container">
         <div class="row">
             <!-- /.col-12 -->
             <div class="col-xl-9">
-                ><!-- /.alert -->
+                <!-- /.alert -->
                 <div class="section-title-spacer"></div><!-- /.rt-section-title-spacer -->
                 <!-- /.flt-dtls-box -->
                 <!-- /.flight-list-box -->
