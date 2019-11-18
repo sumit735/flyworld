@@ -6,15 +6,15 @@
         $email = $_POST['email'];
         $num = $_POST['phone'];
         $msg = $_POST['msg'];
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $body = $name."<br>".$email."<br>".$num."<br>".$msg."<br>".$headers;
+        // $headers = "MIME-Version: 1.0" . "\r\n";
+        // $headers = "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $body = $name."<br>".$email."<br>".$num."<br>".$msg;
 
-    if(mail("sumitkumardash1999@gmail.com", "contact us", $body, $headers)) {
-        $result = "Thanks for contacting us. We will get back to you soon!";
-    } else {
-        $result = "Sorry! Something went wrong";
-    }
+        if(mail("sumitkumardash1999@gmail.com", "contact us", $body, $headers)) {
+            $result = "<p style='color:green;'>Thanks for contacting us. We will get back to you soon!</p>";
+        } else {
+            $result = "<p style='color:red;'>Sorry! Something went wrong</p>";
+        }
     }
 
 ?>
