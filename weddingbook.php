@@ -36,9 +36,15 @@ $register = "insert into `weddingbooking` (`first`, `last`, `mob`, `altmob`, `so
         echo "Oops! Something went wrong.".mysqli_error($con);
     }
 
+<<<<<<< HEAD
     }
 
     ?>
+=======
+?>
+>>>>>>> f2d3b3eb0b83f464404a72745ac4ae54a651471a
+
+
 
 
 <html>
