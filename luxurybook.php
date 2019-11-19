@@ -12,18 +12,18 @@ $source = "";
 
     if(isset($_POST['finalSubmit'])) {
 
-    $firstname =  $_POST['firstname'];
-    $lastname =  $_POST['lastname'];
-    $num =  $_POST['num'];
-    $altnum =  $_POST['altnum'];
-    $src =  $_POST['src'];
-    $dest =  $_POST['dest'];
-    $passenger =  $_POST['passenger'];
-    $luxurycars =  $_POST['luxurycars'];
-    $checkin1 =  $_POST['checkin1'];
-    $checkout1 =  $_POST['checkout1'];
-    $fullname = $_POST['fullname'];
-    $cemail = $_POST['cemail'];
+    $firstname =  mysqli_real_escape_string($con, $_POST['firstname']);
+    $lastname =  mysqli_real_escape_string($con, $_POST['lastname']);
+    $num =  mysqli_real_escape_string($con, $_POST['num']);
+    $altnum =  mysqli_real_escape_string($con, $_POST['altnum']);
+    $src =  mysqli_real_escape_string($con, $_POST['src']);
+    $dest =  mysqli_real_escape_string($con, $_POST['dest']);
+    $passenger =  mysqli_real_escape_string($con, $_POST['passenger']);
+    $luxurycars =  mysqli_real_escape_string($con, $_POST['luxurycars']);
+    $checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
+    $checkout1 = mysqli_real_escape_string($con, $_POST['checkout1']);
+    $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
+    $cemail = mysqli_real_escape_string($con, $_POST['cemail']);
 
 
     $register = "insert into `luxurybooking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `type`, `start`, `end`, `fullname`, `emailid`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$luxurycars', '$checkin1', '$checkout1', '$fullname', '$cemail')";
