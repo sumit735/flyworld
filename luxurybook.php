@@ -5,7 +5,7 @@ $source = "";
     $destination = "";
     $checkin = "";
     $checkout = "";
-
+    $result = "";
 ?>
 
 <?php 
