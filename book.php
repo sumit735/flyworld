@@ -1,23 +1,48 @@
 <?php include "header.php"; 
-
+include "db.php";
 $source = "";
     $destination = "";
     $checkin = "";
     $checkout = "";
 
 ?>
+<?php
+    if(isset($_POST['Submit'])) {
+        extract($_POST);
+    }
+?>
+
 
 <?php 
 
-    if(isset($_POST['submit'])) {
-        extract($_POST);
+    if(isset($_POST['finalSubmit'])) {
+
+    $firstname =  mysqli_real_escape_string($con, $_POST['firstname']);
+    $lastname =  mysqli_real_escape_string($con, $_POST['lastname']);
+    $num =  mysqli_real_escape_string($con, $_POST['num']);
+    $altnum =  mysqli_real_escape_string($con, $_POST['altnum']);
+    $src =  mysqli_real_escape_string($con, $_POST['src']);
+    $dest =  mysqli_real_escape_string($con, $_POST['dest']);
+    $passenger =  mysqli_real_escape_string($con, $_POST['passenger']);
+    $checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
+    $checkout1 = mysqli_real_escape_string($con, $_POST['checkout1']);
+    $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
+    $cemail = mysqli_real_escape_string($con, $_POST['cemail']);
 
 
+    $register = "insert into `booking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$checkin1', '$checkout1', '$fullname', '$cemail')";
+
+    $register_query = mysqli_query($con, $register);
+    if($register_query) {
+        $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
+        // header('location:luxurybook.php');
+    } else {
+        $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
     }
+}
+    ?>
 
-    
 
-?>
 
 
 <html>
@@ -42,28 +67,25 @@ $source = "";
                     <br>
                     <br>
                     <form action="book.php" method="post" class="rt-form rt-line-form flight-lable">
-                        <?php 
-
-                            if(isset($_POST['finalSubmit'])) {
+                    
+                    <?php
+                        if(isset($_POST['finalSubmit'])) {
                                     
-                             extract($_POST);
+                            extract($_POST);
 
-                             echo $firstname;
-                             echo $lastname;
-                             echo $num;
-                             echo $altnum;
-                             echo $src;
-                             echo $dest;
-                             echo $passenger;
-                             echo $checkin1;
-                             echo $checkout1;
-                             echo $fullname;
-                             echo $cemail;
+                            echo $src;
+                            echo $dest;
+                            echo $checkin1;
+                            echo $checkout1;
+                            
 
 
-                            }
+                           }
+                    ?>
+                    
                         
-                        ?>
+                        
+                        
                         <div class="row">
                             <div class="col-md-6 rt-mb-30 ">
                                 <label for="fst-name">First Name</label>
