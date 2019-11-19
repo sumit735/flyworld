@@ -1,4 +1,5 @@
 <?php include "header.php"; 
+include "db.php";
 
 $source = "";
     $destination = "";
@@ -9,15 +10,35 @@ $source = "";
 
 <?php 
 
-    if(isset($_POST['submit'])) {
+    if(isset($_POST['finalSubmit'])) {
         extract($_POST);
 
+        $firstname =  $_POST['firstname'];
+$lastname =  $_POST['lastname'];
+$num =  $_POST['num'];
+$altnum =  $_POST['altnum'];
+$src =  $_POST['src'];
+$dest =  $_POST['dest'];
+$passenger =  $_POST['passenger'];
+$luxurycars =  $_POST['luxurycars'];
+$checkin1 =  $_POST['checkin1'];
+$fullname = $_POST['fullname'];
+$cemail = $_POST['cemail'];
+
+
+$register = "insert into `weddingbooking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `cartype`, `date`, `fullname`, `emailid`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$weddingcars', '$checkin1', '$fullname', '$cemail')";
+
+    $register_query = mysqli_query($con, $register);
+    if($register_query) {
+        echo "Booked successfully";
+        // header('location:luxurybook.php');
+    } else {
+        echo "Oops! Something went wrong.".mysqli_error($con);
+    }
 
     }
 
-    
-
-?>
+    ?>
 
 
 <html>
@@ -42,28 +63,7 @@ $source = "";
                     <br>
                     <br>
                     <form action="weddingbook.php" method="post" class="rt-form rt-line-form flight-lable">
-                        <?php 
-
-                            if(isset($_POST['finalSubmit'])) {
-                                    
-                             extract($_POST);
-
-                             echo $firstname;
-                             echo $lastname;
-                             echo $num;
-                             echo $altnum;
-                             echo $src;
-                             echo $dest;
-                             echo $passenger;
-                             echo $checkin1;
-                             echo $weddingcars;
-                             echo $fullname;
-                             echo $cemail;
-
-
-                            }
                         
-                        ?>
                         <div class="row">
                             <div class="col-md-6 rt-mb-30 ">
                                 <label for="fst-name">First Name</label>
