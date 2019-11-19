@@ -3,5 +3,5 @@
     if(!$con){
         echo 'not connected';
     }
-                             
+    
 ?>
