@@ -12,28 +12,28 @@ $source = "";
 
     if(isset($_POST['finalSubmit'])) {
 
-$firstname =  $_POST['firstname'];
-$lastname =  $_POST['lastname'];
-$num =  $_POST['num'];
-$altnum =  $_POST['altnum'];
-$src =  $_POST['src'];
-$dest =  $_POST['dest'];
-$passenger =  $_POST['passenger'];
-$luxurycars =  $_POST['luxurycars'];
-$checkin1 =  $_POST['checkin1'];
-$checkout1 =  $_POST['checkout1'];
-$fullname = $_POST['fullname'];
-$cemail = $_POST['cemail'];
+    $firstname =  $_POST['firstname'];
+    $lastname =  $_POST['lastname'];
+    $num =  $_POST['num'];
+    $altnum =  $_POST['altnum'];
+    $src =  $_POST['src'];
+    $dest =  $_POST['dest'];
+    $passenger =  $_POST['passenger'];
+    $luxurycars =  $_POST['luxurycars'];
+    $checkin1 =  $_POST['checkin1'];
+    $checkout1 =  $_POST['checkout1'];
+    $fullname = $_POST['fullname'];
+    $cemail = $_POST['cemail'];
 
 
-$register = "insert into `luxurybooking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `type`, `start`, `end`, `fullname`, `emailid`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$luxurycars', '$checkin1', '$checkout1', '$fullname', '$cemail')";
+    $register = "insert into `luxurybooking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `type`, `start`, `end`, `fullname`, `emailid`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$luxurycars', '$checkin1', '$checkout1', '$fullname', '$cemail')";
 
     $register_query = mysqli_query($con, $register);
     if($register_query) {
-        echo "Booked successfully";
+        $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
         // header('location:luxurybook.php');
     } else {
-        echo "Oops! Something went wrong.".mysqli_error($con);
+        $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
     }
 }
     ?>
@@ -53,7 +53,9 @@ $register = "insert into `luxurybooking` (`first`, `last`, `mob`, `altmob`, `sou
                 <!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
                     <?php 
-
+                        if($result != "") {
+                            echo $result;
+                        }
 
                     ?>
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
@@ -136,7 +138,7 @@ $register = "insert into `luxurybooking` (`first`, `last`, `mob`, `altmob`, `sou
 
                             <div class="col-md-6 rt-mb-30">
                                 <label for="st-date">Start Date</label>
-                                <input type="text" value="<?php
+                                <input type="text" autocomplete="off"  value="<?php
                                 if($destination != ""){  
                                     echo $checkin; 
                                 }
@@ -144,7 +146,7 @@ $register = "insert into `luxurybooking` (`first`, `last`, `mob`, `altmob`, `sou
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
                                 <label for="en-date">End Date</label>
-                                <input type="text" required value="<?php
+                                <input type="text" autocomplete="off"  required value="<?php
                                 if($destination != ""){  
                                     echo $checkout; 
                                 }
