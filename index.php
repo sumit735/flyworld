@@ -129,18 +129,18 @@
                     </form>
                 </div> 
                 <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
-                    <form action="book.php">
+                    <form action="hotelbook.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="City Name">
+                                <input type="text" required class="form-control" placeholder="City Name">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                               <input type="text" class="form-control rt-date-picker has-icon" placeholder="Check In">
+                               <input type="text" required class="form-control rt-date-picker has-icon" placeholder="Check In">
                                <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Check Out">
+                                <input type="text" required class="form-control rt-date-picker has-icon" placeholder="Check Out">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
@@ -163,7 +163,7 @@
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_third" role="tabpanel" aria-labelledby="rt-item_a_third">
-                    <form action="book.php">
+                    <form action="taxibook.php">
                     
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
@@ -187,7 +187,7 @@
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_four" role="tabpanel" aria-labelledby="rt-item_a_four">
-                    <form action="book.php">
+                    <form action="pickupbook.php">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
                                 <input type="text" class="form-control" placeholder="City Name">
@@ -241,7 +241,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link inactive" id="third-tab" data-target="#rt-item_b_thrid" data-secondary="#rt-item_a_third"
-                    data-toggle="tab" href="#third" role="tab" aria-controls="third-tab" aria-selected="false">
+                    data-toggle="tab" href="third" role="tab" aria-controls="third-tab" aria-selected="false">
                     <i class="icofont-taxi"></i>
                     <span>Taxi</span>
                 </a>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from pixner.net/emigrar/emigrar/trip-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2019 06:09:59 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -956,7 +956,6 @@
 </body>
 
 
-<!-- Mirrored from pixner.net/emigrar/emigrar/trip-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2019 06:10:26 GMT -->
 </html>
 
 

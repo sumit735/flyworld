@@ -44,7 +44,7 @@
                         <div class="price-mant text-lg-right">
                             <!-- <span class="d-block f-size-12 text-878">7 days</span>
                             <span class="d-block text-primary f-size-24 rt-semiblod title-font">$275</span> -->
-                            <a href="car-2.html" class="rt-btn rt-gradient pill rt-sm3 text-uppercase rt-mt-10">Get Now</a>
+                            <a href="luxurybook.php" class="rt-btn rt-gradient pill rt-sm3 text-uppercase rt-mt-10">Get Now</a>
                         </div><!-- /.price-mant -->
                     </div><!-- /.top-content -->
             
@@ -86,7 +86,7 @@
                         <div class="price-mant text-lg-right">
                             <!-- <span class="d-block f-size-12 text-878">7 days</span>
                             <span class="d-block text-primary f-size-24 rt-semiblod title-font">$275</span> -->
-                            <a href="car-2.html" class="rt-btn rt-gradient pill rt-sm3 text-uppercase rt-mt-10">Get Now</a>
+                            <a href="luxurybook.php" class="rt-btn rt-gradient pill rt-sm3 text-uppercase rt-mt-10">Get Now</a>
                         </div><!-- /.price-mant -->
                     </div><!-- /.top-content -->
             
@@ -128,7 +128,7 @@
                         <div class="price-mant text-lg-right">
                             <!-- <span class="d-block f-size-12 text-878">7 days</span>
                             <span class="d-block text-primary f-size-24 rt-semiblod title-font">$275</span> -->
-                            <a href="car-2.html" class="rt-btn rt-gradient pill rt-sm3 text-uppercase rt-mt-10">Get Now</a>
+                            <a href="luxurybook.php" class="rt-btn rt-gradient pill rt-sm3 text-uppercase rt-mt-10">Get Now</a>
                         </div><!-- /.price-mant -->
                     </div><!-- /.top-content -->
             
