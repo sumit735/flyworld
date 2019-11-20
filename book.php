@@ -1,17 +1,12 @@
 <?php include "header.php"; 
 include "db.php";
+
 $source = "";
     $destination = "";
     $checkin = "";
     $checkout = "";
-
+    $result = "";
 ?>
-<?php
-    if(isset($_POST['Submit'])) {
-        extract($_POST);
-    }
-?>
-
 
 <?php 
 
@@ -43,8 +38,6 @@ $source = "";
     ?>
 
 
-
-
 <html>
  <body>
  <div class="spacer-bottom"></div>
@@ -59,7 +52,9 @@ $source = "";
                 <!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
                     <?php 
-
+                        if($result != "") {
+                            echo $result;
+                        }
 
                     ?>
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
@@ -67,23 +62,6 @@ $source = "";
                     <br>
                     <br>
                     <form action="book.php" method="post" class="rt-form rt-line-form flight-lable">
-                    
-                    <?php
-                        if(isset($_POST['finalSubmit'])) {
-                                    
-                            extract($_POST);
-
-                            echo $src;
-                            echo $dest;
-                            echo $checkin1;
-                            echo $checkout1;
-                            
-
-
-                           }
-                    ?>
-                    
-                        
                         
                         
                         <div class="row">
@@ -146,9 +124,11 @@ $source = "";
                                 </select>
                             </div><!-- /.col-md-6 -->
                             
+                            
+
                             <div class="col-md-6 rt-mb-30">
                                 <label for="st-date">Start Date</label>
-                                <input type="text" value="<?php
+                                <input type="text" autocomplete="off"  value="<?php
                                 if($destination != ""){  
                                     echo $checkin; 
                                 }
@@ -156,7 +136,7 @@ $source = "";
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6 rt-mb-30">
                                 <label for="en-date">End Date</label>
-                                <input type="text" required value="<?php
+                                <input type="text" autocomplete="off"  required value="<?php
                                 if($destination != ""){  
                                     echo $checkout; 
                                 }
@@ -195,6 +175,13 @@ $source = "";
 
 
  <?php include "footer.php"; ?>
+
+
+
+
+
+
+
 
 
 
