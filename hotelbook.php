@@ -28,14 +28,14 @@ if(isset($_POST['submit'])) {
     $num =  mysqli_real_escape_string($con, $_POST['num']);
     $altnum =  mysqli_real_escape_string($con, $_POST['altnum']);
     $city =  mysqli_real_escape_string($con, $_POST['city']);
-    $hotel =  mysqli_real_escape_string($con, $_POST['hotel']);
+    $type =  mysqli_real_escape_string($con, $_POST['type']);
     $checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
     $checkout1 = mysqli_real_escape_string($con, $_POST['checkout1']);
     $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
     $cemail = mysqli_real_escape_string($con, $_POST['cemail']);
 
 
-    $register = "insert into `hotelbooking` (`first`, `last`, `mob`, `altmob`, `city`, `hotel`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$city', '$hotel', '$checkin1', '$checkout1', '$fullname', '$cemail')";
+    $register = "insert into `hotelbooking` (`first`, `last`, `mob`, `altmob`, `city`, `hotel`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$city', '$type', '$checkin1', '$checkout1', '$fullname', '$cemail')";
 
     $register_query = mysqli_query($con, $register);
     if($register_query) {
@@ -115,17 +115,14 @@ if(isset($_POST['submit'])) {
                                 </div><!-- /.row -->
                                 
                             </div><!-- /.col-md-6 -->
-                            
                             <div class="col-md-6 rt-mb-30">
-                                <label for="select-2">hotel</label>
-                                <select name="hotel" required id="select-2">
-                                    <option value="5 star">5 Star</option>
-                                    <option value="4 Star">4 Star</option>
-                                    <option value="3 Star">3 Star</option>
-                                    <option value="Standard">Standard</option>
-                                    <option value="Budget">Budget</option>
-                                </select>
-                            </div><!-- /.col-md-6 -->
+                                <label for="id-number">Hotel</label>
+                                <input type="text" value="<?php 
+                                            if($type!= ""){ 
+                                                echo $type; 
+                                            }
+                                            ?>" required name="type"  placeholder="Hotel" class="form-control">
+                            </div>
                             
                             
 

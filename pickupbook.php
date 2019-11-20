@@ -97,16 +97,14 @@ $arrival = "";
                                             }
                                             ?>" required name="from"  placeholder="From" class="form-control">
                             </div>
-                            <label>Destination</label>
-                                        <br>
-                                        <div class="form-check form-check-inline">
-                                            <input type="text" value="<?php
-                                            if($destination != ""){ 
+                            <div class="col-md-6 rt-mb-30">
+                                <label for="id-number">To</label>
+                                <input type="text" value="<?php 
+                                            if($destination!= ""){ 
                                                 echo $destination; 
                                             }
-                                            ?>"  name="dest" required class="form-control" id="fst-name" placeholder="Destination ">
-                                            
-                                        </div>
+                                            ?>" required name="destination"  placeholder="To" class="form-control">
+                            </div>
                             <div class="col-lg-6 rt-mb-30">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -129,15 +127,14 @@ $arrival = "";
                             </div><!-- /.col-md-6 -->
                             
                             <div class="col-md-6 rt-mb-30">
-                                <label for="select-2">Passengers</label>
-                                <select name="passenger" required id="select-2">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="4+">4+</option>
-                                </select>
-                            </div><!-- /.col-md-6 -->
+                                <label for="id-number">Passengers</label>
+                                <input type="text" value="<?php 
+                                            if($passenger!= ""){ 
+                                                echo $passenger; 
+                                            }
+                                            ?>" required name="passenger"  placeholder="Passengers" class="form-control">
+                            </div>
+                            <!-- /.col-md-6 -->
                             
                             <div class="col-md-6 rt-mb-30">
                                 <label for="st-date">Date</label>
