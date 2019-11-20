@@ -4,6 +4,7 @@ $destination = "";
 $city = "";
 $from = "";
 $arrival = "";
+$result = ""
 
 
 
@@ -20,6 +21,36 @@ $arrival = "";
     
 
 ?>
+<?php 
+
+if(isset($_POST['finalSubmit'])) {
+
+$firstname =  mysqli_real_escape_string($con, $_POST['firstname']);
+$lastname =  mysqli_real_escape_string($con, $_POST['lastname']);
+$num =  mysqli_real_escape_string($con, $_POST['num']);
+$altnum =  mysqli_real_escape_string($con, $_POST['altnum']);
+$from =  mysqli_real_escape_string($con, $_POST['from']);
+$destination =  mysqli_real_escape_string($con, $_POST['destination']);
+$city =  mysqli_real_escape_string($con, $_POST['city']);
+$passenger =  mysqli_real_escape_string($con, $_POST['passenger']);
+$checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
+
+$fullname = mysqli_real_escape_string($con, $_POST['fullname']);
+$cemail = mysqli_real_escape_string($con, $_POST['cemail']);
+
+
+$register = "insert into `pickupbooking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `city`, `passenger`, `date`, `fullname`, `emailid`) values('$firstname', '$lastname', '$num', '$altnum', '$from', '$destination', '$city', '$passenger', '$checkin1', '$fullname', '$cemail')";
+
+$register_query = mysqli_query($con, $register);
+if($register_query) {
+    $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
+    // header('location:luxurybook.php');
+} else {
+    $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
+}
+}
+?>
+
 
 
 
@@ -37,38 +68,20 @@ $arrival = "";
                 <!-- /.flt-dtls-box -->
                 <!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
-                    <?php 
+                <?php 
+                     if($result != "") {
+                        echo $result;
+                    }
 
 
                     ?>
+                    
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
                     <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->
                     <br>
                     <br>
                     <form action="pickupbook.php" method="post" class="rt-form rt-line-form flight-lable">
-                        <?php 
-
-                            if(isset($_POST['finalSubmit'])) {
-                                    
-                             extract($_POST);
-
-                             echo $firstname;
-                             echo $lastname;
-                             echo $num;
-                             echo $altnum;
-                             echo $from;
-                             echo $city;
-                             echo $arrival;
-                             echo $destination;
-                             echo $passenger;
-                             echo $checkin1;
-                             echo $fullname;
-                             echo $cemail;
-
-
-                            }
                         
-                        ?>
                         <div class="row">
                             <div class="col-md-6 rt-mb-30 ">
                                 <label for="fst-name">First Name</label>
