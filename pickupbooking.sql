@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 19, 2019 at 10:17 AM
+-- Generation Time: Nov 20, 2019 at 11:58 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -25,54 +25,39 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `luxurybooking`
+-- Table structure for table `pickupbooking`
 --
 
-CREATE TABLE `luxurybooking` (
+CREATE TABLE `pickupbooking` (
   `id` int(11) NOT NULL,
   `first` text NOT NULL,
   `last` text NOT NULL,
   `mob` int(11) NOT NULL,
   `altmob` int(11) NOT NULL,
-  `source` varchar(255) NOT NULL,
-  `destination` varchar(255) NOT NULL,
+  `source` text NOT NULL,
+  `destination` text NOT NULL,
+  `city` text NOT NULL,
   `passenger` int(11) NOT NULL,
-  `type` varchar(255) NOT NULL,
-  `start` date NOT NULL,
-  `end` date NOT NULL,
+  `date` varchar(255) NOT NULL,
   `fullname` text NOT NULL,
   `emailid` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
-
 --
--- Table structure for table `weddingbooking`
+-- Dumping data for table `pickupbooking`
 --
 
-CREATE TABLE `weddingbooking` (
-  `id` int(11) NOT NULL,
-  `first` text NOT NULL,
-  `last` text NOT NULL,
-  `mob` int(11) NOT NULL,
-  `altmob` int(11) NOT NULL,
-  `source` varchar(255) NOT NULL,
-  `destination` varchar(255) NOT NULL,
-  `passenger` int(11) NOT NULL,
-  `cartype` varchar(255) NOT NULL,
-  `date` date NOT NULL,
-  `fullname` text NOT NULL,
-  `emailid` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT INTO `pickupbooking` (`id`, `first`, `last`, `mob`, `altmob`, `source`, `destination`, `city`, `passenger`, `date`, `fullname`, `emailid`) VALUES
+(1, 'satya', 'prakash', 2147483647, 2147483647, 'Railway Station', 'cuttack', 'bbs', 3, '11/29/2019', 'satya prakash', 'sumitkumar1999@gmail.com');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `luxurybooking`
+-- Indexes for table `pickupbooking`
 --
-ALTER TABLE `luxurybooking`
+ALTER TABLE `pickupbooking`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -80,10 +65,10 @@ ALTER TABLE `luxurybooking`
 --
 
 --
--- AUTO_INCREMENT for table `luxurybooking`
+-- AUTO_INCREMENT for table `pickupbooking`
 --
-ALTER TABLE `luxurybooking`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `pickupbooking`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
