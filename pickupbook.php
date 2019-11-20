@@ -1,9 +1,11 @@
 <?php include "header.php"; 
+include "db.php";
+$destination = "";
+$city = "";
+$from = "";
+$arrival = "";
 
-$source = "";
-    $destination = "";
-    $checkin = "";
-    $checkout = "";
+
 
 ?>
 
@@ -18,6 +20,8 @@ $source = "";
     
 
 ?>
+
+
 
 
 <html>
@@ -41,7 +45,7 @@ $source = "";
                     <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->
                     <br>
                     <br>
-                    <form action="book.php" method="post" class="rt-form rt-line-form flight-lable">
+                    <form action="pickupbook.php" method="post" class="rt-form rt-line-form flight-lable">
                         <?php 
 
                             if(isset($_POST['finalSubmit'])) {
@@ -52,11 +56,12 @@ $source = "";
                              echo $lastname;
                              echo $num;
                              echo $altnum;
-                             echo $src;
-                             echo $dest;
+                             echo $from;
+                             echo $city;
+                             echo $arrival;
+                             echo $destination;
                              echo $passenger;
                              echo $checkin1;
-                             echo $checkout1;
                              echo $fullname;
                              echo $cemail;
 
@@ -84,19 +89,15 @@ $source = "";
                                 <label for="id-number">Alternate Mobile Number</label>
                                 <input type="number" required name="altnum"  placeholder="Alternate Mobile Number" class="form-control">
                             </div><!-- /.col-md-6 -->
-                            <div class="col-lg-6 rt-mb-30">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>Source</label>
-                                        <br>
-                                        <div class="form-check form-check-inline">
-                                            <input type="text" value="<?php 
-                                            if($source != ""){ 
-                                                echo $source; 
+                            <div class="col-md-6 rt-mb-30">
+                                <label for="id-number">From</label>
+                                <input type="text" value="<?php 
+                                            if($from!= ""){ 
+                                                echo $from; 
                                             }
-                                            ?>" name="src"  required class="form-control" id="fst-name" placeholder="Source">
-                                        </div>
-                                        <label>Destination</label>
+                                            ?>" required name="from"  placeholder="From" class="form-control">
+                            </div>
+                            <label>Destination</label>
                                         <br>
                                         <div class="form-check form-check-inline">
                                             <input type="text" value="<?php
@@ -106,11 +107,25 @@ $source = "";
                                             ?>"  name="dest" required class="form-control" id="fst-name" placeholder="Destination ">
                                             
                                         </div>
-                                    </div><!-- /.col-md-6 -->
+                            <div class="col-lg-6 rt-mb-30">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>City Name</label>
+                                        <br>
+                                        <div class="form-check form-check-inline">
+                                            <input type="text" value="<?php 
+                                            if($city != ""){ 
+                                                echo $city; 
+                                            }
+                                            ?>" name="city"  required class="form-control" id="fst-name" placeholder="City">
+                                        </div>
+                                        
+                                       
+                                        
+                                    </div>
                                     
                                     
-                                </div><!-- /.row -->
-                                
+                                </div>
                             </div><!-- /.col-md-6 -->
                             
                             <div class="col-md-6 rt-mb-30">
@@ -125,21 +140,14 @@ $source = "";
                             </div><!-- /.col-md-6 -->
                             
                             <div class="col-md-6 rt-mb-30">
-                                <label for="st-date">Start Date</label>
+                                <label for="st-date">Date</label>
                                 <input type="text" value="<?php
-                                if($destination != ""){  
-                                    echo $checkin; 
+                                if($arrival != ""){  
+                                    echo $arrival; 
                                 }
                                 ?>"  required class="form-control rt-date-picker" name="checkin1" placeholder="date" id="st-date">
                             </div><!-- /.col-md-6 -->
-                            <div class="col-md-6 rt-mb-30">
-                                <label for="en-date">End Date</label>
-                                <input type="text" required value="<?php
-                                if($destination != ""){  
-                                    echo $checkout; 
-                                }
-                                ?>"  class="form-control rt-date-picker" name="checkout1" placeholder="date" id="en-date">
-                            </div><!-- /.col-md-6 -->
+                            
                         </div><!-- /.row -->
                 </div><!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">

@@ -129,18 +129,18 @@
                     </form>
                 </div> 
                 <div class="tab-pane  rtIncative" id="rt-item_a_second" role="tabpanel" aria-labelledby="rt-item_a_second">
-                    <form action="hotelbook.php">
+                    <form action="hotelbook.php" method="post">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" required class="form-control" placeholder="City Name">
+                                <input type="text" required name="city" class="form-control" placeholder="City Name">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                               <input type="text" required class="form-control rt-date-picker has-icon" placeholder="Check In">
+                               <input type="text" required name="checkin" class="form-control rt-date-picker has-icon" placeholder="Check In">
                                <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" required class="form-control rt-date-picker has-icon" placeholder="Check Out">
+                                <input type="text" required name="checkout" class="form-control rt-date-picker has-icon" placeholder="Check Out">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
@@ -157,54 +157,54 @@
                                 <input type="text" class="form-control" placeholder="message(optional)">
                             </div>/.single-input -->
                             <div class="single-input  col-rt-in-1">
-                                <button type="submit"><i class="icofont-search"></i></button>
+                            <button type="submit" name="submit"><i class="icofont-search"></i></button>
                             </div><!-- /.single-input -->
                         </div><!-- /.rt-input-group -->
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_third" role="tabpanel" aria-labelledby="rt-item_a_third">
-                    <form action="taxibook.php">
+                    <form action="taxibook.php" method="post">
                     
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="Source">
+                                <input type="text" required name="source" class="form-control" placeholder="Source">
                             </div>
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="Destination">
+                                <input type="text" required name="destination" class="form-control" placeholder="Destination">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Depart">
+                                <input type="text" required name="checkin" class="form-control rt-date-picker has-icon" placeholder="Depart">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Return">
+                                <input type="text" required name="checkout" class="form-control rt-date-picker has-icon" placeholder="Return">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-1">
-                                <button type="submit"><i class="icofont-search"></i></button>
+                                <button type="submit" name="submit" ><i class="icofont-search"></i></button>
                             </div><!-- /.single-input -->
                         </div><!-- /.rt-input-group -->
                     </form><!-- ./ form -->
                 </div>
                 <div class="tab-pane  rtIncative" id="rt-item_a_four" role="tabpanel" aria-labelledby="rt-item_a_four">
-                    <form action="pickupbook.php">
+                    <form action="pickupbook.php" method="post">
                         <div class="rt-input-group">
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control" placeholder="City Name">
+                                <input type="text" required name="city" class="form-control" placeholder="City Name">
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <input type="text" class="form-control rt-date-picker has-icon" placeholder="Arrival Date">
+                                <input type="text" required name="arrival" class="form-control rt-date-picker has-icon" placeholder="Arrival Date">
                                 <span class="input-iconbadge"><i class="icofont-ui-calendar"></i></span>
                             </div><!-- /.single-input -->
                             <div class="single-input  col-rt-in-3">
-                                <select class="rt-selectactive banner-select" name="type" style="width: 100%">
+                                <select class="rt-selectactive banner-select" required name="from" style="width: 100%">
                                     <option value="select">Select</option>
                                     <option value="Airport">Airport</option>
                                     <option value="Railway Station">Railway Station</option>
                                 </select>
                             </div>
                             <div class="single-input  col-rt-in-3">
-                                <select class="rt-selectactive banner-select" name="type" style="width: 100%">
+                                <select class="rt-selectactive banner-select" required name="passenger" style="width: 100%">
                                     <option value="p">No of passengers</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -214,7 +214,7 @@
                                 </select>
                             </div>
                             <div class="single-input  col-rt-in-1">
-                                <button type="submit"><i class="icofont-search"></i></button>
+                                <button name="submit" type="submit"><i class="icofont-search"></i></button>
                             </div><!-- /.single-input -->
                         </div>
                     </form><!-- ./ form -->

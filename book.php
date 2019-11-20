@@ -7,7 +7,17 @@ $source = "";
     $checkout = "";
     $result = "";
 ?>
+<?php 
 
+if(isset($_POST['submit'])) {
+    extract($_POST);
+
+
+}
+
+
+
+?>
 <?php 
 
     if(isset($_POST['finalSubmit'])) {
