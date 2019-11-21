@@ -506,7 +506,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </span>
-                            <span>4.5 / 5 (473 reviews)</span>
+                            <span>4.2 / 5 (1473 reviews)</span>
                         </p>
                     </div><!-- /.inner-content -->
                 </div><!-- /.portfolio-box-1 -->
@@ -519,7 +519,7 @@
                         <span><sup>$</sup>239</span>
                     </div> -->
                     <div class="inner-content text-white">
-                        <h6>The Millenium Hilton New York</h6>
+                        <h6>Swift Dzire</h6>
                         <p> <span>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -527,20 +527,20 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </span>
-                            <span>4.5 / 5 (473 reviews)</span>
+                            <span>4.4 / 5 (1099 reviews)</span>
                         </p>
                     </div><!-- /.inner-content -->
                 </div><!-- /.portfolio-box-1 -->
             </div><!-- /.col-md-4 -->
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-4">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-3.jpg)" data-wow-duration="1.3s">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/cars/cars1.jpg)" data-wow-duration="1.3s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
                     <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
                     </div> -->
                     <div class="inner-content text-white">
-                        <h6>The Millenium Hilton New York</h6>
+                        <h6>Jaguar</h6>
                         <p> <span>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -548,20 +548,20 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </span>
-                            <span>4.5 / 5 (473 reviews)</span>
+                            <span>4.8 / 5 (873 reviews)</span>
                         </p>
                     </div><!-- /.inner-content -->
                 </div><!-- /.portfolio-box-1 -->
             </div><!-- /.col-md-4 -->
             <div class="col-lg-4 col-md-6 grid-item cat-4 cat-3 cat-5">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-4.jpg)" data-wow-duration="1.6s">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/cars/cars2.jpg)" data-wow-duration="1.6s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
                     <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
                     </div> -->
                     <div class="inner-content text-white">
-                        <h6>The Millenium Hilton New York</h6>
+                        <h6>Mahindra Scorpio</h6>
                         <p> <span>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -569,20 +569,20 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </span>
-                            <span>4.5 / 5 (473 reviews)</span>
+                            <span>4.3 / 5 (1183 reviews)</span>
                         </p>
                     </div><!-- /.inner-content -->
                 </div><!-- /.portfolio-box-1 -->
             </div><!-- /.col-md-4 -->
             <div class="col-lg-4 col-md-6 grid-item cat-1 cat-5">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-5.jpg)" data-wow-duration="1.9s">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/cars/cars3.jpg)" data-wow-duration="1.9s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
                     <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
                     </div> -->
                     <div class="inner-content text-white">
-                        <h6>The Millenium Hilton New York</h6>
+                        <h6>Audi A3</h6>
                         <p> <span>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -590,20 +590,20 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </span>
-                            <span>4.5 / 5 (473 reviews)</span>
+                            <span>4.0 / 5 (2473 reviews)</span>
                         </p>
                     </div><!-- /.inner-content -->
                 </div><!-- /.portfolio-box-1 -->
             </div><!-- /.col-md-4 -->
             <div class="col-lg-4 col-md-6 grid-item cat-3 cat-5">
-                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/portfolio/port-6.jpg)" data-wow-duration="2.2s">
+                <div class="portfolio-box-1 wow fade-in-bottom " style="background-image: url(assets/images/cars/cars4.jpg)" data-wow-duration="2.2s">
                     <div class="rt-overlay"></div><!-- /.rt-overlay -->
                     <!-- <div class="portfolio-badge">
                         <span>From</span>
                         <span><sup>$</sup>239</span>
                     </div> -->
                     <div class="inner-content text-white">
-                        <h6>The Millenium Hilton New York</h6>
+                        <h6>Innova</h6>
                         <p> <span>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -631,11 +631,11 @@
 
 <div class="spacer-top"></div><!-- /.spacer-top -->
 
-<section class="flight-dela-area" data-scrollax-parent="true">
+<!-- <section class="flight-dela-area" data-scrollax-parent="true">
     <div class="rt-shape-emenetns-1" style="background-image: url(assets/images/shape-elements/shape_1.png)"
-        data-scrollax="properties: { translateY: '340px' }"></div><!-- /.rt-shape-emenetns-1 -->
+        data-scrollax="properties: { translateY: '340px' }"></div>
     <div class="rt-shape-emenetns-2" style="background-image: url(assets/images/shape-elements/shape-2.png)"
-        data-scrollax="properties: { translateX: '-140px' }"></div><!-- /.rt-shape-elemenets2 -->
+        data-scrollax="properties: { translateX: '-140px' }"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-10 mx-auto text-center">
@@ -643,7 +643,7 @@
                     <h2 class="rt-section-title">
                         <span>Explore Top Destinations</span>
                         Top Round-trip Flight Deals
-                    </h2><!-- /.rt-section-title -->
+                    </h2>
                     <p>
                         Get inspired, find the best deals and start an unforgettable journeya.Looking for the best
                         flight deals
@@ -651,16 +651,16 @@
                         trip? Find the top flyworld deals that are updated daily to book the cheapest
                         flight up to 55% off the average price.
                     </p>
-                </div><!-- /.rt-section-title-wrapper -->
-            </div><!-- /.col-lg-9 -->
-        </div><!-- /.row -->
+                </div>
+            </div>
+        </div>
         <div class="section-title-spacer"></div>
         <div class="row">
             <div class="col-xl-8 col-lg-10">
                 <div class="row">
                     <div class="col-md-6">
                         <a class="flight-box wow fade-in-bottom" data-wow-duration="1s" data-wow-delay=".02s" href="#" style="background-image: url(assets/images/flights/flt_1.jpg)">
-                            <div class="rt-inner-overlay color_1"></div><!-- /.rt-overlay -->
+                            <div class="rt-inner-overlay color_1"></div>
                             <div class="trip-to">
                                 <span>
                                     Trip to
@@ -668,16 +668,16 @@
                                 <span>
                                     Peru
                                 </span>
-                            </div><!-- /.trip-to -->
+                            </div>
                             <div class="trip-form">
                                 <span>7 days</span>
                                 <span>$4570</span>
-                            </div><!-- /.trip-form -->
-                        </a><!-- /.flight-box -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </a>
+                    </div>
                     <div class=" col-md-6">
                         <a class="flight-box wow fade-in-bottom" href="#" data-wow-duration="1.3s" data-wow-delay=".04s" style="background-image: url(assets/images/flights/flt_2.jpg)">
-                            <div class="rt-inner-overlay color_2"></div><!-- /.rt-overlay -->
+                            <div class="rt-inner-overlay color_2"></div>
                             <div class="trip-to">
                                 <span>
                                     Trip to
@@ -685,16 +685,16 @@
                                 <span>
                                     Peru
                                 </span>
-                            </div><!-- /.trip-to -->
+                            </div>
                             <div class="trip-form">
                                 <span>7 days</span>
                                 <span>$4570</span>
-                            </div><!-- /.trip-form -->
-                        </a><!-- /.flight-box -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-md-6">
                         <a class="flight-box wow fade-in-bottom" data-wow-duration="1.6s" data-wow-delay=".06s" href="#" style="background-image: url(assets/images/flights/flt_3.jpg)">
-                            <div class="rt-inner-overlay color_3"></div><!-- /.rt-overlay -->
+                            <div class="rt-inner-overlay color_3"></div>
                             <div class="trip-to">
                                 <span>
                                     Trip to
@@ -702,16 +702,16 @@
                                 <span>
                                     Peru
                                 </span>
-                            </div><!-- /.trip-to -->
+                            </div>
                             <div class="trip-form">
                                 <span>7 days</span>
                                 <span>$4570</span>
-                            </div><!-- /.trip-form -->
-                        </a><!-- /.flight-box -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-md-6">
                         <a class="flight-box wow fade-in-bottom" data-wow-duration="1.9s" data-wow-delay=".08s" href="#" style="background-image: url(assets/images/flights/flt_4.jpg)">
-                            <div class="rt-inner-overlay color_4"></div><!-- /.rt-overlay -->
+                            <div class="rt-inner-overlay color_4"></div>
                             <div class="trip-to">
                                 <span>
                                     Trip to
@@ -719,16 +719,16 @@
                                 <span>
                                     Peru
                                 </span>
-                            </div><!-- /.trip-to -->
+                            </div>
                             <div class="trip-form">
                                 <span>7 days</span>
                                 <span>$4570</span>
-                            </div><!-- /.trip-form -->
-                        </a><!-- /.flight-box -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-md-6">
                         <a class="flight-box wow fade-in-bottom" data-wow-duration="2.2s" data-wow-delay=".010s" href="#" style="background-image: url(assets/images/flights/flt_5.jpg)">
-                            <div class="rt-inner-overlay color_5"></div><!-- /.rt-overlay -->
+                            <div class="rt-inner-overlay color_5"></div>
                             <div class="trip-to">
                                 <span>
                                     Trip to
@@ -736,16 +736,16 @@
                                 <span>
                                     Peru
                                 </span>
-                            </div><!-- /.trip-to -->
+                            </div>
                             <div class="trip-form">
                                 <span>7 days</span>
                                 <span>$4570</span>
-                            </div><!-- /.trip-form -->
-                        </a><!-- /.flight-box -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-md-6">
                         <a class="flight-box wow fade-in-bottom" data-wow-duration="2.6s" data-wow-delay=".12s" href="#" style="background-image: url(assets/images/flights/flt_6.jpg)">
-                            <div class="rt-inner-overlay color_6"></div><!-- /.rt-overlay -->
+                            <div class="rt-inner-overlay color_6"></div>
                             <div class="trip-to">
                                 <span>
                                     Trip to
@@ -753,22 +753,22 @@
                                 <span>
                                     Peru
                                 </span>
-                            </div><!-- /.trip-to -->
+                            </div>
                             <div class="trip-form">
                                 <span>7 days</span>
                                 <span>$4570</span>
-                            </div><!-- /.trip-form -->
-                        </a><!-- /.flight-box -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </a>
+                    </div>
                     <div class="col-12 text-center mt-4">
                         <a href="#" class="rt-btn rt-gradient rt-sm text-uppercase rt-rounded rt-Bshadow-2">browse more</a>
-                        <!-- /.rt-btn -->
-                    </div><!-- /.col-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.col-lg-8 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
 
 <!-- 
     ====== call to action======
