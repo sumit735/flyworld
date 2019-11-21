@@ -34,7 +34,6 @@ $destination =  mysqli_real_escape_string($con, $_POST['destination']);
 $city =  mysqli_real_escape_string($con, $_POST['city']);
 $passenger =  mysqli_real_escape_string($con, $_POST['passenger']);
 $checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
-
 $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
 $cemail = mysqli_real_escape_string($con, $_POST['cemail']);
 

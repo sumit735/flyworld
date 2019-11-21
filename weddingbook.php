@@ -7,39 +7,49 @@ $source = "";
     $checkout = "";
 
 ?>
+<?php 
+
+if(isset($_POST['submit'])) {
+    extract($_POST);
+
+
+}
+
+
+
+?>
 
 <?php 
 
     if(isset($_POST['finalSubmit'])) {
         extract($_POST);
 
-        $firstname =  $_POST['firstname'];
-$lastname =  $_POST['lastname'];
-$num =  $_POST['num'];
-$altnum =  $_POST['altnum'];
-$src =  $_POST['src'];
-$dest =  $_POST['dest'];
-$passenger =  $_POST['passenger'];
-$luxurycars =  $_POST['luxurycars'];
-$checkin1 =  $_POST['checkin1'];
-$fullname = $_POST['fullname'];
-$cemail = $_POST['cemail'];
+        $firstname =  mysqli_real_escape_string($con, $_POST['firstname']);
+        $lastname = mysqli_real_escape_string($con, $_POST['lastname']);
+        $num =  mysqli_real_escape_string($con, $_POST['num']);
+        $altnum =  mysqli_real_escape_string($con, $_POST['altnum']);
+        $src =  mysqli_real_escape_string($con, $_POST['src']);
+        $dest =  mysqli_real_escape_string($con, $_POST['dest']);
+        $passenger =  mysqli_real_escape_string($con, $_POST['passenger']);
+        $weddingcars =  mysqli_real_escape_string($con, $_POST['weddingcars']);
+        $checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
+        $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
+        $cemail = mysqli_real_escape_string($con, $_POST['cemail']);
 
 
 $register = "insert into `weddingbooking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `cartype`, `date`, `fullname`, `emailid`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$weddingcars', '$checkin1', '$fullname', '$cemail')";
 
-    $register_query = mysqli_query($con, $register);
-    if($register_query) {
-        echo "Booked successfully";
-        // header('location:luxurybook.php');
-    } else {
-        echo "Oops! Something went wrong.".mysqli_error($con);
-    }
-
-    }
+$register_query = mysqli_query($con, $register);
+if($register_query) {
+    $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
+    // header('location:luxurybook.php');
+} else {
+    $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
+}
+}
 
     ?>
-?>
+
 
 
 
@@ -57,9 +67,11 @@ $register = "insert into `weddingbooking` (`first`, `last`, `mob`, `altmob`, `so
                 <!-- /.flt-dtls-box -->
                 <!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
-                    <?php 
-
-
+                    <?php
+                     
+                    if($result != "") {
+                       echo $result;
+                   }
                     ?>
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
                     <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->

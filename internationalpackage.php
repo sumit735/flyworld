@@ -1,4 +1,5 @@
 <?php include "header.php"; ?>
+<?php include "db.php"; ?>
 
 <style>
 
@@ -62,11 +63,37 @@
 <!-- ==========================Cards Start================================== -->
 <!-- ========================================================================= -->
 
+<?php
+$getinternationalpackage = "SELECT * FROM featured_international ORDER BY id DESC";
+$getinternationalpackagequery = mysqli_query($con, $getinternationalpackage);
 
+?>
 
 <h2 style="margin-bottom: 50px">Book Packages Now</h2>
     <div class="row">
+        <?php 
+        while($res = mysqli_fetch_assoc($getinternationalpackagequery)){
+        ?>
         <div class="col col-lg-3 col-md-6">
+            <div class="card" style="width: 30rem; height: 40rem;">
+                <img src="admin/<?php echo $res['image']?>" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        trip name <br>
+                        trip details   <br>
+                        price <br>
+                        cities covered <br>
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
+                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <?php 
+        }
+        ?>
+        <!-- <div class="col col-lg-3 col-md-6">
             <div class="card" style="width: 30rem; height: 40rem;">
                 <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -81,119 +108,8 @@
                     <a href="#" class="btn btn-lg btn-primary">Book Now</a>
                 </div>
             </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col col-lg-3 col-md-6">
-            <div class="card" style="width: 30rem; height: 40rem;">
-                <img src="assets/images/cities/bbsr.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        trip name <br>
-                        trip details   <br>
-                        price <br>
-                        cities covered <br>
-                    </p>
-                    <a href="#" class="btn btn-lg btn-primary">View Details</a>
-                    <a href="#" class="btn btn-lg btn-primary">Book Now</a>
-                </div>
-            </div>
-        </div>
+        </div> -->
+        
     </div>
 
 <?php include "footer.php"; ?>
