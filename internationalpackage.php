@@ -33,13 +33,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 drk" src="assets/images/slider/oslider1.jpg" style="height: 100vh;" alt="First slide">
+      <img class="d-block w-100 drk" src="assets/images/slider/Malaysia.jpg" style="height: 100vh;" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 drk" src="assets/images/slider/oslider2.jpg" style="height: 100vh;" alt="Second slide">
+      <img class="d-block w-100 drk" src="assets/images/slider/kuala-lumpur-malaysia.jpg" style="height: 100vh;" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 drk" src="assets/images/slider/oslider3.jpg" style="height: 100vh;" alt="Third slide">
+      <img class="d-block w-100 drk" src="assets/images/slider/malacca-river.jpg" style="height: 100vh;" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
