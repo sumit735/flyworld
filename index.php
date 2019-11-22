@@ -395,7 +395,7 @@
                             </p>
                             <div class="rt-button-group">
                                 <!-- <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a> -->
-                                <a href="book.php?id=<?php echo $odishares['id']; ?>" class="rt-btn rt-outline-gradientL rt-rounded">Book Now</a>
+                                <a href="featured_book.php?odishabook=<?php echo $odishares['id']; ?>" class="rt-btn rt-outline-gradientL rt-rounded">Book Now</a>
                             </div>
                         </div><!-- /.deal-bottom-content -->
                     </div><!-- /.rt-section-title-wrapper -->
@@ -447,7 +447,7 @@
                             </p>
                             <div class="rt-button-group">
                                 <!-- <a href="#" class="rt-btn rt-gradient rt-rounded rt-Bshadow-2">Read More</a> -->
-                                <a href="featured_book.php?id=<?php echo $indiares['id']; ?>" class="rt-btn rt-outline-gradientL rt-rounded">Book Now</a>
+                                <a href="featured_book.php?indiabook=<?php echo $indiares['id']; ?>" class="rt-btn rt-outline-gradientL rt-rounded">Book Now</a>
                             </div>
                         </div><!-- /.deal-bottom-content -->
                     </div><!-- /.rt-section-title-wrapper -->
