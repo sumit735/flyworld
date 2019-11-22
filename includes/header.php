@@ -108,8 +108,8 @@
             </ul>
         </li>
         
-        <li class="menu-item-has-children"><a href="#" style="color: black;">Car Rentals</a>
-            <ul class="sub-menu">
+        <li class="current-menu-item"><a href="carrentals.php" style="color: black;">Car Rentals</a>
+            <!-- <ul class="sub-menu">
                 <li class="sub-menu"><a href="#">Indigo</a></li>
                 <li class="sub-menu"><a href="#">Swift</a></li>
                 <li class="sub-menu"><a href="#">Swift Dzire</a></li>
@@ -117,7 +117,7 @@
                 <li class="sub-menu"><a href="#">Innova</a></li>
                 <li class="sub-menu"><a href="#">Bolero</a></li>
                 <li class="sub-menu"><a href="#">Tavera</a></li>
-            </ul>
+            </ul> -->
         </li>
         <li><a href="luxurycar.php" style="color: black;">Luxury Cars</a></li>
         <li><a href="weddingcars.php" style="color: black;">Wedding Cars</a></li>
