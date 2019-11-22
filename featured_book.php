@@ -31,19 +31,29 @@ if(isset($_GET['indiabook'])) {
 ?>
 <?php 
 
-//     if(isset($_POST['finalSubmit'])) {
+    if(isset($_POST['finalSubmit'])) {
+        $firstname =  mysqli_real_escape_string($con, $_POST['firstname']);
+    $lastname =  mysqli_real_escape_string($con, $_POST['lastname']);
+    $num =  mysqli_real_escape_string($con, $_POST['num']);
+    $altnum =  mysqli_real_escape_string($con, $_POST['altnum']);
+    $tour =  mysqli_real_escape_string($con, $_POST['tour']);
+    $passenger =  mysqli_real_escape_string($con, $_POST['passenger']);
+    $checkin1 =  mysqli_real_escape_string($con, $_POST['checkin1']);
+    $checkout1 = mysqli_real_escape_string($con, $_POST['checkout1']);
+    $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
+    $cemail = mysqli_real_escape_string($con, $_POST['cemail']);
 
         
-//     $register = "insert into `booking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$checkin1', '$checkout1', '$fullname', '$cemail')";
+    $register = "insert into `featured_book` (`first`, `last`, `mob`, `altmob`, `tour`, `passenger`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$tour', '$passenger', '$checkin1', '$checkout1', '$fullname', '$cemail')";
 
-//     $register_query = mysqli_query($con, $register);
-//     if($register_query) {
-//         $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
-//         // header('location:luxurybook.php');
-//     } else {
-//         $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
-//     }
-// }
+    $register_query = mysqli_query($con, $register);
+    if($register_query) {
+        $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
+        // header('location:luxurybook.php');
+    } else {
+        $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
+    }
+}
     ?>
 
 
@@ -61,16 +71,16 @@ if(isset($_GET['indiabook'])) {
                 <!-- /.flight-list-box -->
                 <div class="flight-list-box rt-mb-30 pt-30">
                     <?php 
-                        // if($result != "") {
-                        //     echo $result;
-                        // }
+                        if($result != "") {
+                            echo $result;
+                        }
 
                     ?>
                     <h4 class="f-size-24 text-capitalize rt-mb-30  rt-semiblod">Passenger Info</h4>
                     <!-- <h6 class="text-333 rt-medium">Passenger 1: Adult ticket</h6> -->
                     <br>
                     <br>
-                    <form action="book.php" method="post" class="rt-form rt-line-form flight-lable">
+                    <form action="featured_book.php" method="post" class="rt-form rt-line-form flight-lable">
                         
                         
                         <div class="row">
@@ -100,10 +110,11 @@ if(isset($_GET['indiabook'])) {
                                         <br>
                                         <div class="form-check form-check-inline">
                                             <input type="text" value="<?php 
-                                            if($tourname != ""){ 
+                                            if($tourname != ""){
+                                                $name = $tourname['name'];
                                                 echo $tourname['name']; 
                                             }
-                                            ?>" name="src"  required class="form-control" id="fst-name" placeholder="Source">
+                                            ?>" name="tour"  required class="form-control" id="fst-name" placeholder="Source">
                                         </div>
                                         
                                     </div><!-- /.col-md-6 -->
