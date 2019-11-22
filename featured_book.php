@@ -2,6 +2,7 @@
 include "db.php";
 
     $tourname = "";
+    $result = "";
     
 ?>
 <?php 
@@ -114,7 +115,7 @@ if(isset($_GET['indiabook'])) {
                                                 $name = $tourname['name'];
                                                 echo $tourname['name']; 
                                             }
-                                            ?>" name="tour"  required class="form-control" id="fst-name" placeholder="Source">
+                                            ?>" name="tour"  required class="form-control" id="fst-name" placeholder="Tour">
                                         </div>
                                         
                                     </div><!-- /.col-md-6 -->
