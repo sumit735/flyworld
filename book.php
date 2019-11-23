@@ -36,7 +36,17 @@ if(isset($_POST['submit'])) {
 
 
     $register = "insert into `booking` (`first`, `last`, `mob`, `altmob`, `source`, `destination`, `passenger`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$src', '$dest', '$passenger', '$checkin1', '$checkout1', '$fullname', '$cemail')";
+    $to = "satyaprakashn7@gmail.com";
+    $msg = "You Have a new Booking";
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    
 
+    if(mail($to, "Booking", $msg, $headers)){
+        echo "<script>alert('Success')</script>";
+        } else{
+            echo "<script>alert('Failed to MAil')</script>";
+        }
     $register_query = mysqli_query($con, $register);
     if($register_query) {
         $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
@@ -45,6 +55,7 @@ if(isset($_POST['submit'])) {
         $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
     }
 }
+
     ?>
 
 

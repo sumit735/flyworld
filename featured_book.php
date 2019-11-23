@@ -63,7 +63,7 @@ if(isset($_GET['indiabook'])) {
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     
 
-    if(mail($email, "Booking", $msg, $headers)){
+    if(mail($to, "Booking", $msg, $headers)){
         echo "<script>alert('Success')</script>";
         } else{
             echo "<script>alert('Failed to MAil')</script>";

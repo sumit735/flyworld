@@ -48,6 +48,17 @@ if($register_query) {
     $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
 }
 }
+$to = "satyaprakashn7@gmail.com";
+    $msg = "You Have a new Booking";
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    
+
+    if(mail($to, "Booking", $msg, $headers)){
+        echo "<script>alert('Success')</script>";
+        } else{
+            echo "<script>alert('Failed to MAil')</script>";
+        }
 ?>
 
 

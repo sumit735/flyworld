@@ -109,23 +109,20 @@
 <div class="main-menu">
     <ul>
         <li class="current-menu-item"><a href="index.php" style="color: black;">Home</a></li>
-        <li class="menu-item-has-children"><a href="#" style="color: black;">Holidays</a>
+        <li class="menu-item-has-children"><a href="#" style="color: black;">Featured Packages</a>
             <ul class="sub-menu">
-                <li class="sub-menu"><a href="odishapackage.php">Odisha Packages</a></li>
-                <li class="sub-menu"><a href="indiapackage.php">India Packages</a></li>
-                <li class="sub-menu"><a href="internationalpackage.php">International Packages</a></li>
+                <li class="sub-menu"><a href="view_odishatour_booking.php">Odisha Packages</a></li>
+                <li class="sub-menu"><a href="view_indiatour_booking.php">India Packages</a></li>
+                <li class="sub-menu"><a href="view_internationaltour_booking.php">International Packages</a></li>
             </ul>
         </li>
         
-        <li class="menu-item-has-children"><a href="#" style="color: black;">Car Rentals</a>
+        <li class="menu-item-has-children"><a href="#" style="color: black;">Booking</a>
             <ul class="sub-menu">
-                <li class="sub-menu"><a href="#">Indigo</a></li>
-                <li class="sub-menu"><a href="#">Swift</a></li>
-                <li class="sub-menu"><a href="#">Swift Dzire</a></li>
-                <li class="sub-menu"><a href="#">Tiago</a></li>
-                <li class="sub-menu"><a href="#">Innova</a></li>
-                <li class="sub-menu"><a href="#">Bolero</a></li>
-                <li class="sub-menu"><a href="#">Tavera</a></li>
+                <li class="sub-menu"><a href="view_tour_booking.php">Tour Booking</a></li>
+                <li class="sub-menu"><a href="view_hotel_booking.php">Hotel Booking</a></li>
+                <li class="sub-menu"><a href="view_taxi_booking.php">Taxi Booking</a></li>
+                <li class="sub-menu"><a href="view_pickup_booking.php">Pickups</a></li>
             </ul>
         </li>
         <li><a href="luxurycar.php" style="color: black;">Luxury Cars</a></li>
