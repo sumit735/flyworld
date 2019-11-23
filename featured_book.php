@@ -46,7 +46,8 @@ if(isset($_GET['indiabook'])) {
 
         
     $register = "insert into `featured_book` (`first`, `last`, `mob`, `altmob`, `tour`, `passenger`, `start`, `end`, `fullname`, `email`) values('$firstname', '$lastname', '$num', '$altnum', '$tour', '$passenger', '$checkin1', '$checkout1', '$fullname', '$cemail')";
-
+    
+    
     $register_query = mysqli_query($con, $register);
     if($register_query) {
         $result =  "<h3 style='color: green; font-size: 20px;'>Booked successfully</h3>";
@@ -55,6 +56,22 @@ if(isset($_GET['indiabook'])) {
         $result = "<h3 style='color: red; font-size: 20px;'>Oops! Something went wrong.</h3>".mysqli_error($con);
     }
 }
+
+    $to = "satyaprakashn7@gmail.com";
+    $msg = "You Have a new Booking";
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    
+
+    if(mail($email, "Booking", $msg, $headers)){
+        echo "<script>alert('Success')</script>";
+        } else{
+            echo "<script>alert('Failed to MAil')</script>";
+        }
+
+
+
+
     ?>
 
 
